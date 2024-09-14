@@ -1,0 +1,58 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5">
+        <h3>Máy tính</h3>
+    </div>
+
+    <form class="container mt-3" action="/Calculate/UseRequest" method="POST">
+        <div class="mb-3">
+            <label for="a" class="form-label">Nhập a</label>
+            <input type="text" class="form-control" id="a" name="a" placeholder="Nhập a">
+        </div>
+        <div class="mb-3">
+            <label for="b" class="form-label">Nhập b</label>
+            <input type="text" class="form-control" id="b" name="b" placeholder="Nhập b">
+        </div>
+        <div class="mb-3 d-flex">
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="operation" id="add" value="+" checked>
+                <label class="form-check-label" for="add">Cộng</label>
+            </div>
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="operation" id="subtract" value="-">
+                <label class="form-check-label" for="subtract">Trừ</label>
+            </div>
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="operation" id="multiply" value="*">
+                <label class="form-check-label" for="multiply">Nhân</label>
+            </div>
+            <div class="form-check me-3">
+                <input class="form-check-input" type="radio" name="operation" id="divide" value="/">
+                <label class="form-check-label" for="divide">Chia</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Tính</button>
+
+        @if (ViewBag.Result != null)
+        {
+            <div class="mt-3">
+                <h4>@ViewBag.a @ViewBag.operation @ViewBag.b = @ViewBag.Result</h4>
+            </div>
+        }
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
