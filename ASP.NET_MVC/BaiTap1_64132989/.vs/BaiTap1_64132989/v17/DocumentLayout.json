@@ -3,35 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\views\\calculate\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\views\\calculate\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\views\\calculate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\models\\calculatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\baitap1_64132989\\models\\calculatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\models\\calculatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "BaiTap1_64132989\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:59:46.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UseRequest.cshtml",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
@@ -63,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "UseArguments.cshtml",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T13:39:30.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T13:39:30.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UseFormCollection.cshtml",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
@@ -84,12 +100,11 @@
               "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T13:36:57.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T13:36:57.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\App_Start\\FilterConfig.cs",
@@ -102,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\App_Start\\RouteConfig.cs",
@@ -115,20 +130,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CalculateController.cs",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\CalculateController.cs",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Controllers\\CalculateController.cs",
               "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\CalculateController.cs",
               "RelativeToolTip": "BaiTap1_64132989\\Controllers\\CalculateController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAA0wJIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAAJIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T13:12:21.425Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CalculateModels.cs",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Models\\CalculateModels.cs",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Models\\CalculateModels.cs",
@@ -136,12 +151,11 @@
               "RelativeToolTip": "BaiTap1_64132989\\Models\\CalculateModels.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T13:10:09.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T13:10:09.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
@@ -149,8 +163,7 @@
               "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T12:56:00.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T12:56:00.712Z"
             }
           ]
         }

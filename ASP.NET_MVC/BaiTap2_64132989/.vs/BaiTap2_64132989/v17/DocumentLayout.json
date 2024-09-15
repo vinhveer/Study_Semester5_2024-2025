@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\views\\sinhvien_64132989\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\views\\sinhvien_64132989\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\views\\sinhvien_64132989\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\views\\sinhvien_64132989\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\views\\sinhvien_64132989\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\views\\sinhvien_64132989\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\views\\sinhvien_64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\views\\sinhvien_64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\baitap2_64132989\\controllers\\sinhvien_64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\controllers\\sinhvien_64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\views\\sinhvien_64132989\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\views\\sinhvien_64132989\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\baitap2_64132989\\models\\sinhvienmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\models\\sinhvienmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap2_64132989\\baitap2_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A126AFC9-346F-4538-B595-6B1460994694}|BaiTap2_64132989\\BaiTap2_64132989.csproj|solutionrelative:baitap2_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 209,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UseFormCollection.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseFormCollection.cshtml",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseFormCollection.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseFormCollection.cshtml",
+              "RelativeToolTip": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseFormCollection.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T06:50:40.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UseArguments.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseArguments.cshtml",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseArguments.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseArguments.cshtml",
+              "RelativeToolTip": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseArguments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T06:45:02.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Views\\SinhVien_64132989\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\Index.cshtml",
+              "RelativeToolTip": "BaiTap2_64132989\\Views\\SinhVien_64132989\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T14:13:21.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SinhVien_64132989Controller.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Controllers\\SinhVien_64132989Controller.cs",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Controllers\\SinhVien_64132989Controller.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Controllers\\SinhVien_64132989Controller.cs",
+              "RelativeToolTip": "BaiTap2_64132989\\Controllers\\SinhVien_64132989Controller.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAywDoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:11:59.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UseRequest.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseRequest.cshtml",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseRequest.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\UseRequest.cshtml",
+              "RelativeToolTip": "BaiTap2_64132989\\Views\\SinhVien_64132989\\UseRequest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T06:38:17.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SinhVienModels.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Models\\SinhVienModels.cs",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Models\\SinhVienModels.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Models\\SinhVienModels.cs",
+              "RelativeToolTip": "BaiTap2_64132989\\Models\\SinhVienModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T14:30:33.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\Result.cshtml",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\Views\\SinhVien_64132989\\Result.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\Views\\SinhVien_64132989\\Result.cshtml",
+              "RelativeToolTip": "BaiTap2_64132989\\Views\\SinhVien_64132989\\Result.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T05:56:52.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "BaiTap2_64132989\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap2_64132989\\BaiTap2_64132989\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "BaiTap2_64132989\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:08:08.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
