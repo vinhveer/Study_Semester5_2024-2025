@@ -1,0 +1,74 @@
+﻿@model BaiTap3_64132989.Models.EmployeeModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ListEmployee</title>
+</head>
+<body>
+    <div>
+        <h4>EmployeeModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.fullName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.fullName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.dateOfBirth)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.dateOfBirth)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.email)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.email)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.password)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.password)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.department)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.department)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.position)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.position)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
