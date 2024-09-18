@@ -1,6 +1,5 @@
 ﻿using BaiTap3_64132989.Models;
 using System.Web.Mvc;
-using CsvHelper;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -28,36 +27,59 @@ namespace BaiTap3_64132989.Controllers
         {
             try
             {
-                string avatarPath = System.IO.Path.GetFileName(avatar.FileName);
-
-                // Save the uploaded avatar to the server
                 if (avatar != null && avatar.ContentLength > 0)
                 {
-                    var avatarSavePath = Server.MapPath("~/Content/avatars/" + avatarPath);
+                    // Get the file name of the uploaded file
+                    string avatarFileName = Path.GetFileName(avatar.FileName);
+
+                    // Combine the path to the Content folder and the file name
+                    var avatarSavePath = Server.MapPath("~/Content/" + avatarFileName);
+
+                    // Debugging: Log the file path
+                    System.Diagnostics.Debug.WriteLine($"Saving avatar to: {avatarSavePath}");
+
+                    // Save the uploaded file to the server
                     avatar.SaveAs(avatarSavePath);
+
+                    // Check if the file was saved
+                    if (System.IO.File.Exists(avatarSavePath))
+                    {
+                        // Store the relative path of the saved avatar in the model
+                        model.avatar = "/Content/" + avatarFileName;
+                    }
+                    else
+                    {
+                        throw new Exception("Avatar file was not saved.");
+                    }
+                }
+                else
+                {
+                    throw new Exception("No avatar file uploaded.");
                 }
 
-                model.avatar = avatarPath;
-                
+                SaveToCsv(model);
 
                 return RedirectToAction("ListEmployee");
             }
             catch (Exception ex)
             {
-                ViewBag.Message = "Có lỗi xảy ra: " + ex.Message;
+                // Debugging: Log the error message
+                System.Diagnostics.Debug.WriteLine($"Error: {ex.Message}");
+
+                ViewBag.Message = "An error occurred: " + ex.Message;
                 return View(model);
             }
         }
+
 
         // Save employee information to the CSV file
         private void SaveToCsv(EmployeeModel model)
         {
             var filePath = Server.MapPath(CsvFilePath);
             using (var writer = new StreamWriter(filePath, true))
-            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
             {
-                csv.WriteRecord(model);
-                writer.WriteLine();
+                var line = $"{model.id},{model.fullName},{model.dateOfBirth.ToString("MM/dd/yyyy")},{model.email},{model.password},{model.department},{model.position},{model.avatar}";
+                writer.WriteLine(line);
             }
         }
 
@@ -71,13 +93,31 @@ namespace BaiTap3_64132989.Controllers
             if (System.IO.File.Exists(filePath))
             {
                 using (var reader = new StreamReader(filePath))
-                using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
                 {
-                    employees = csv.GetRecords<EmployeeModel>().ToList();
+                    string line;
+                    while ((line = reader.ReadLine()) != null)
+                    {
+                        var fields = line.Split(',');
+                        if (fields.Length >= 8)
+                        {
+                            var employee = new EmployeeModel
+                            {
+                                id = fields[0],
+                                fullName = fields[1],
+                                dateOfBirth = DateTime.Parse(fields[2]), // Adjust the format if needed
+                                email = fields[3],
+                                password = fields[4],
+                                department = fields[5],
+                                position = fields[6],
+                                avatar = fields[7]
+                            };
+                            employees.Add(employee);
+                        }
+                    }
                 }
             }
 
-            return View(employees);
+            return View(employees); // Make sure to create a view that handles a list of employees
         }
     }
 }
