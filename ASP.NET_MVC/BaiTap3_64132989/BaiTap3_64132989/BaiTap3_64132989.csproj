@@ -166,13 +166,16 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Content\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\employees.csv" />
     <None Include="packages.config" />
     <Content Include="Views\NhanVien_64132989\Index.cshtml" />
     <Content Include="Views\NhanVien_64132989\ListEmployee.cshtml" />
+    <Content Include="Views\NhanVien_64132989\Details.cshtml" />
+    <Content Include="Views\NhanVien_64132989\Edit.cshtml" />
+    <Content Include="Views\NhanVien_64132989\Delete.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -11,15 +11,11 @@ namespace BaiTap3_64132989.Controllers
 {
     public class NhanVien_64132989Controller : Controller
     {
-        // Path to the CSV file
         private const string CsvFilePath = "~/App_Data/employees.csv";
 
         // GET: NhanVien_64132989/Index
         [HttpGet]
-        public ActionResult Index()
-        {
-            return View(new EmployeeModel());
-        }
+        public ActionResult Index() => View(new EmployeeModel());
 
         // POST: NhanVien_64132989/Index
         [HttpPost]
@@ -29,95 +25,154 @@ namespace BaiTap3_64132989.Controllers
             {
                 if (avatar != null && avatar.ContentLength > 0)
                 {
-                    // Get the file name of the uploaded file
+                    string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
+                    string extension = Path.GetExtension(avatar.FileName).ToLower();
+
+                    if (!allowedExtensions.Contains(extension))
+                        throw new Exception("Invalid file format. Only images are allowed.");
+
                     string avatarFileName = Path.GetFileName(avatar.FileName);
+                    string avatarSavePath = Path.Combine(Server.MapPath("~/Images/"), avatarFileName);
 
-                    // Combine the path to the Content folder and the file name
-                    var avatarSavePath = Server.MapPath("~/Content/" + avatarFileName);
-
-                    // Debugging: Log the file path
-                    System.Diagnostics.Debug.WriteLine($"Saving avatar to: {avatarSavePath}");
-
-                    // Save the uploaded file to the server
                     avatar.SaveAs(avatarSavePath);
 
-                    // Check if the file was saved
                     if (System.IO.File.Exists(avatarSavePath))
-                    {
-                        // Store the relative path of the saved avatar in the model
-                        model.avatar = "/Content/" + avatarFileName;
-                    }
+                        model.avatar = "/Images/" + avatarFileName;
                     else
-                    {
                         throw new Exception("Avatar file was not saved.");
-                    }
                 }
-                else
+
+                if (ModelState.IsValid)
                 {
-                    throw new Exception("No avatar file uploaded.");
+                    SaveToCsv(model);
+                    return RedirectToAction("ListEmployee");
                 }
-
-                SaveToCsv(model);
-
-                return RedirectToAction("ListEmployee");
+                throw new Exception("Model is not valid.");
             }
             catch (Exception ex)
             {
-                // Debugging: Log the error message
-                System.Diagnostics.Debug.WriteLine($"Error: {ex.Message}");
-
                 ViewBag.Message = "An error occurred: " + ex.Message;
                 return View(model);
             }
         }
 
-
-        // Save employee information to the CSV file
-        private void SaveToCsv(EmployeeModel model)
+        // GET: NhanVien_64132989/Details/{id}
+        [HttpGet]
+        public ActionResult Details(string id)
         {
-            var filePath = Server.MapPath(CsvFilePath);
-            using (var writer = new StreamWriter(filePath, true))
-            {
-                var line = $"{model.id},{model.fullName},{model.dateOfBirth.ToString("MM/dd/yyyy")},{model.email},{model.password},{model.department},{model.position},{model.avatar}";
-                writer.WriteLine(line);
-            }
+            var employee = GetEmployeeById(id);
+            return employee != null ? View(employee) : (ActionResult)HttpNotFound();
         }
 
-        // GET: NhanVien_64132989/ListEmployee
-        public ActionResult ListEmployee()
+        // GET: NhanVien_64132989/Edit/{id}
+        [HttpGet]
+        public ActionResult Edit(string id)
+        {
+            var employee = GetEmployeeById(id);
+            return employee != null ? View(employee) : (ActionResult)HttpNotFound();
+        }
+
+        // POST: NhanVien_64132989/Edit/{id}
+        [HttpPost]
+        public ActionResult Edit(string id, EmployeeModel model, HttpPostedFileBase avatar)
+        {
+            var employees = GetAllEmployees();
+            var index = employees.FindIndex(e => e.id == id);
+
+            if (index == -1)
+                return HttpNotFound();
+
+            if (avatar != null && avatar.ContentLength > 0)
+            {
+                string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
+                string extension = Path.GetExtension(avatar.FileName).ToLower();
+
+                if (!allowedExtensions.Contains(extension))
+                    throw new Exception("Invalid file format. Only images are allowed.");
+
+                string avatarFileName = Path.GetFileName(avatar.FileName);
+                string avatarSavePath = Path.Combine(Server.MapPath("~/Images/"), avatarFileName);
+
+                avatar.SaveAs(avatarSavePath);
+                model.avatar = "/Images/" + avatarFileName;
+            }
+            employees[index] = model;
+            SaveAllToCsv(employees);
+
+            return RedirectToAction("ListEmployee");
+        }
+
+        // GET: NhanVien_64132989/Delete/{id}
+        [HttpGet]
+        public ActionResult Delete(string id)
+        {
+            var employee = GetEmployeeById(id);
+            return employee != null ? View(employee) : (ActionResult)HttpNotFound();
+        }
+
+        // POST: NhanVien_64132989/Delete/{id}
+        [HttpPost, ActionName("Delete")]
+        public ActionResult ConfirmDelete(string id)
+        {
+            var employees = GetAllEmployees();
+            var employee = employees.FirstOrDefault(e => e.id == id);
+
+            if (employee == null)
+                return HttpNotFound();
+
+            employees.Remove(employee);
+            SaveAllToCsv(employees);
+
+            return RedirectToAction("ListEmployee");
+        }
+
+        // List all employees
+        public ActionResult ListEmployee() => View(GetAllEmployees());
+
+        // Helper methods
+        private List<EmployeeModel> GetAllEmployees()
         {
             var employees = new List<EmployeeModel>();
-
-            // Read employee data from the CSV file
             var filePath = Server.MapPath(CsvFilePath);
+
             if (System.IO.File.Exists(filePath))
             {
-                using (var reader = new StreamReader(filePath))
+                foreach (var line in System.IO.File.ReadAllLines(filePath))
                 {
-                    string line;
-                    while ((line = reader.ReadLine()) != null)
+                    var fields = line.Split(',');
+                    if (fields.Length >= 8 && DateTime.TryParseExact(fields[2], "MM/dd/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dob))
                     {
-                        var fields = line.Split(',');
-                        if (fields.Length >= 8)
+                        employees.Add(new EmployeeModel
                         {
-                            var employee = new EmployeeModel
-                            {
-                                id = fields[0],
-                                fullName = fields[1],
-                                dateOfBirth = DateTime.Parse(fields[2]), // Adjust the format if needed
-                                email = fields[3],
-                                password = fields[4],
-                                department = fields[5],
-                                position = fields[6],
-                                avatar = fields[7]
-                            };
-                            employees.Add(employee);
-                        }
+                            id = fields[0],
+                            fullName = fields[1],
+                            dateOfBirth = dob,
+                            email = fields[3],
+                            password = fields[4],
+                            department = fields[5],
+                            position = fields[6],
+                            avatar = fields[7]
+                        });
                     }
                 }
             }
+            return employees;
+        }
 
-            return View(employees); // Make sure to create a view that handles a list of employees
+        private EmployeeModel GetEmployeeById(string id) => GetAllEmployees().FirstOrDefault(e => e.id == id);
+
+        private void SaveToCsv(EmployeeModel model)
+        {
+            var filePath = Server.MapPath(CsvFilePath);
+            var line = $"{model.id},{model.fullName},{model.dateOfBirth:MM/dd/yyyy},{model.email},{model.password},{model.department},{model.position},{model.avatar}";
+            System.IO.File.AppendAllText(filePath, line + Environment.NewLine);
+        }
+
+        private void SaveAllToCsv(List<EmployeeModel> employees)
+        {
+            var filePath = Server.MapPath(CsvFilePath);
+            var lines = employees.Select(e => $"{e.id},{e.fullName},{e.dateOfBirth:MM/dd/yyyy},{e.email},{e.password},{e.department},{e.position},{e.avatar}");
+            System.IO.File.WriteAllLines(filePath, lines);
         }
     }
 }

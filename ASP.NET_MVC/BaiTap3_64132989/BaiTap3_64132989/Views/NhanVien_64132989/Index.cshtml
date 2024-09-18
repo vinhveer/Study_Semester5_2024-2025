@@ -1,6 +1,4 @@
-﻿@{
-    Layout = null;
-}
+﻿@model BaiTap3_64132989.Models.EmployeeModel
 
 <!doctype html>
 <html lang="en">
@@ -11,7 +9,6 @@
     <title>Bootstrap UX Form Demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <style>
         label {
             font-weight: 600;
@@ -25,81 +22,89 @@
 
         <ul class="nav nav-tabs mt-4">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Đăng ký</a>
+                <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "NhanVien_64132989")">Đăng ký</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Danh sách</a>
+                <a class="nav-link" href="@Url.Action("ListEmployee", "NhanVien_64132989")">Danh sách</a>
             </li>
         </ul>
 
         <p class="mt-4">Vui lòng hoàn thành các thông tin sau</p>
 
-        <p>@ViewBag.message</p>
+        @if (ViewBag.Message != null)
+        {
+            <div class="alert alert-warning">
+                @ViewBag.Message
+            </div>
+        }
 
-        <form class="text-start" action="~/NhanVien_64132989/Index" method="post" enctype="multipart/form-data">
+        <!-- Form sử dụng model binding -->
+        @using (Html.BeginForm("Index", "NhanVien_64132989", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
             <div class="row">
                 <div class="col-md-4 mb-2">
-                    <label for="id" class="form-label">Mã số nhân viên</label>
-                    <input type="text" class="form-control" id="id" name="id" placeholder="Nhập mã số" />
+                    @Html.LabelFor(model => model.id, new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.id, new { @class = "form-control", placeholder = "Nhập mã số" })
+                    @Html.ValidationMessageFor(model => model.id)
                 </div>
                 <div class="col-md-6 mb-2">
-                    <label for="fullName" class="form-label">Họ tên</label>
-                    <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Nhập họ tên" />
+                    @Html.LabelFor(model => model.fullName, new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.fullName, new { @class = "form-control", placeholder = "Nhập họ tên" })
+                    @Html.ValidationMessageFor(model => model.fullName)
                 </div>
                 <div class="col-md-2 mb-2">
-                    <label for="dateOfBirth" class="form-label">Ngày sinh</label>
-                    <input type="date" class="form-control" id="dateOfBirth" name="dateOfBirth" />
+                    @Html.LabelFor(model => model.dateOfBirth, new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.dateOfBirth, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                    @Html.ValidationMessageFor(model => model.dateOfBirth)
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-6 mb-2">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Nhập email công ty" />
+                    @Html.LabelFor(model => model.email, new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.email, new { @class = "form-control", type = "email", placeholder = "Nhập email công ty" })
                     <div class="form-text">Email phải có định dạng đúng, ví dụ: name@company.com</div>
+                    @Html.ValidationMessageFor(model => model.email)
                 </div>
                 <div class="col-md-6 mb-2">
-                    <label for="password" class="form-label">Mật khẩu</label>
-                    <input type="password" class="form-control" id="password" name="password" placeholder="Nhập mật khẩu" />
+                    @Html.LabelFor(model => model.password, new { @class = "form-label" })
+                    @Html.PasswordFor(model => model.password, new { @class = "form-control", placeholder = "Nhập mật khẩu" })
                     <div class="form-text">Mật khẩu phải có ít nhất 8 ký tự.</div>
+                    @Html.ValidationMessageFor(model => model.password)
                 </div>
             </div>
 
             <div class="row">
-                <!-- Mật khẩu và Phòng ban -->
                 <div class="col-md-3 mb-2">
-                    <label for="department" class="form-label">Phòng ban</label>
-                    <select class="form-select" id="department" name="department">
-                        <option selected>Chọn phòng ban</option>
-                        <option value="1">Kinh doanh</option>
-                        <option value="2">Kỹ thuật</option>
-                        <option value="3">Nhân sự</option>
-                    </select>
+                    @Html.LabelFor(model => model.department, new { @class = "form-label" })
+                    @Html.DropDownListFor(model => model.department, new SelectList(new[] {
+                        new { Value = "1", Text = "Kinh doanh" },
+                        new { Value = "2", Text = "Kỹ thuật" },
+                        new { Value = "3", Text = "Nhân sự" },
+                    }, "Value", "Text", null), "Chọn phòng ban", new { @class = "form-select" })
+                    @Html.ValidationMessageFor(model => model.department)
                 </div>
                 <div class="col-md-3 mb-2">
-                    <label for="position" class="form-label">Chức vụ</label>
-                    <select class="form-select" id="position" name="position">
-                        <option selected>Chọn chức vụ</option>
-                        <option value="1">Nhân viên</option>
-                        <option value="2">Trưởng phòng</option>
-                        <option value="3">Giám đốc</option>
-                    </select>
+                    @Html.LabelFor(model => model.position, new { @class = "form-label" })
+                    @Html.DropDownListFor(model => model.position, new SelectList(new[] {
+                        new { Value = "1", Text = "Nhân viên" },
+                        new { Value = "2", Text = "Trưởng phòng" },
+                        new { Value = "3", Text = "Giám đốc" },
+                    }, "Value", "Text", null), "Chọn chức vụ", new { @class = "form-select" })
+                    @Html.ValidationMessageFor(model => model.position)
                 </div>
                 <div class="col-md-6 mb-2">
-                    <label for="avatar" class="form-label">Ảnh đại diện</label>
+                    @Html.LabelFor(model => model.avatar, new { @class = "form-label" })
                     <input type="file" class="form-control" id="avatar" name="avatar" />
+                    @Html.ValidationMessageFor(model => model.avatar)
                 </div>
             </div>
 
             <div class="d-grid mt-3">
                 <button type="submit" class="btn btn-primary">Đăng ký</button>
             </div>
-        </form>
+        }
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous"></script>
 </body>
 
 </html>
