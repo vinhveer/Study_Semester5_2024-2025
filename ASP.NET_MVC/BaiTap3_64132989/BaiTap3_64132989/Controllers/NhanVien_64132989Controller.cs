@@ -82,6 +82,15 @@ namespace BaiTap3_64132989.Controllers
             if (index == -1)
                 return HttpNotFound();
 
+            var existingEmployee = employees[index];
+
+            // Update password if provided
+            if (!string.IsNullOrEmpty(model.password))
+            {
+                existingEmployee.password = model.password;
+            }
+
+            // Update avatar if provided
             if (avatar != null && avatar.ContentLength > 0)
             {
                 string[] allowedExtensions = { ".jpg", ".jpeg", ".png", ".gif" };
@@ -94,13 +103,22 @@ namespace BaiTap3_64132989.Controllers
                 string avatarSavePath = Path.Combine(Server.MapPath("~/Images/"), avatarFileName);
 
                 avatar.SaveAs(avatarSavePath);
-                model.avatar = "/Images/" + avatarFileName;
+                existingEmployee.avatar = "/Images/" + avatarFileName;
             }
-            employees[index] = model;
+
+            // Update other fields from the model
+            existingEmployee.fullName = model.fullName;
+            existingEmployee.dateOfBirth = model.dateOfBirth;
+            existingEmployee.email = model.email;
+            existingEmployee.department = model.department;
+            existingEmployee.position = model.position;
+
+            // Save the updated list back to the CSV file
             SaveAllToCsv(employees);
 
             return RedirectToAction("ListEmployee");
         }
+
 
         // GET: NhanVien_64132989/Delete/{id}
         [HttpGet]
