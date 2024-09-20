@@ -1,0 +1,63 @@
+﻿@{
+    var path = Server.MapPath("~/App_Data/banner.txt");
+    var fileImage = System.IO.File.ReadAllText(path);
+    ViewBag.image = "/Images/" + fileImage;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+    <style>
+        .nav-link {
+            font-weight: 600;
+        }
+
+        li {
+            margin-right: 10px;
+        }
+
+        img-fluid {
+            max-height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="bannner container p-3">
+        <img src=@ViewBag.image alt="banner" class="img-fluid">
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3 shadow-sm">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li>@Html.ActionLink("Trang chủ", "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Đăng ký", "Index", "DangKy", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Gửi email", "Index", "GuiEmail", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink("Thay đổi bannner", "ChangeBanner", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Design by Vinh Veer</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

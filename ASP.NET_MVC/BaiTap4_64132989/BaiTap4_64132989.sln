@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTap4_64132989", "BaiTap4_64132989\BaiTap4_64132989.csproj", "{4BF203B2-CBFB-421B-A753-4B1D34E249DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaiTap4_64132989", "BaiTap4_64132989\BaiTap4_64132989.csproj", "{1BAB8E9B-2381-4A56-BE0A-A7B04FD5340D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4BF203B2-CBFB-421B-A753-4B1D34E249DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4BF203B2-CBFB-421B-A753-4B1D34E249DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4BF203B2-CBFB-421B-A753-4B1D34E249DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4BF203B2-CBFB-421B-A753-4B1D34E249DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAB8E9B-2381-4A56-BE0A-A7B04FD5340D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAB8E9B-2381-4A56-BE0A-A7B04FD5340D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAB8E9B-2381-4A56-BE0A-A7B04FD5340D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAB8E9B-2381-4A56-BE0A-A7B04FD5340D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {00AA9575-4FD8-4B69-994F-481F62A3FACA}
+		SolutionGuid = {98FADFA7-0C01-4FEC-945D-0F89D4450622}
 	EndGlobalSection
 EndGlobal

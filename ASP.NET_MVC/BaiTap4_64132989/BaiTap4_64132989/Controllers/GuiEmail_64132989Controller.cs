@@ -1,9 +1,7 @@
-﻿using BaiTap4_64132989.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System;
+using System.Net.Mail;
 using System.Web.Mvc;
+using BaiTap4_64132989.Models;
 
 namespace BaiTap4_64132989.Controllers
 {
@@ -18,18 +16,40 @@ namespace BaiTap4_64132989.Controllers
         [HttpPost]
         public ActionResult Index(MailInfo model)
         {
-            System.Net.Mail.MailMessage mail = new System.Net.Mail.MailMessage();
-            mail.From = new System.Net.Mail.MailAddress(model.From);
-            mail.To.Add(model.To);
-            mail.Subject = model.Subject;
-            mail.Body = model.Body;
-            mail.IsBodyHtml = true;
-            System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("smtp.gmail.com", 587);
-            smtp.Credentials = new System.Net.NetworkCredential(model.From, model.Password);
-            smtp.EnableSsl = true;
-            smtp.Send(mail);
-            return RedirectToAction("Index", "Mail");
+            try
+            {
+                // Gửi email
+                SendEmail(model);
+
+                // Sử dụng TempData để lưu thông báo giữa các yêu cầu
+                TempData["SuccessMessage"] = "Email đã được gửi thành công!";
+            }
+            catch (Exception ex)
+            {
+                // Xử lý lỗi và gửi thông báo
+                TempData["ErrorMessage"] = $"Có lỗi xảy ra: {ex.Message}";
+            }
+
+            return RedirectToAction("Index");
         }
 
+        private void SendEmail(MailInfo model)
+        {
+            using (var mail = new MailMessage())
+            {
+                mail.From = new MailAddress(model.From);
+                mail.To.Add(model.To);
+                mail.Subject = model.Subject;
+                mail.Body = model.Body;
+                mail.IsBodyHtml = true;
+
+                using (var smtp = new SmtpClient("smtp.gmail.com", 587))
+                {
+                    smtp.Credentials = new System.Net.NetworkCredential(model.From, model.Password);
+                    smtp.EnableSsl = true;
+                    smtp.Send(mail);
+                }
+            }
+        }
     }
 }
