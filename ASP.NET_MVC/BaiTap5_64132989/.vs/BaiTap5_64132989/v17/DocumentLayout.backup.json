@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\app_data\\banner.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\app_data\\banner.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\views\\home\\changebanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\views\\home\\changebanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap5_64132989\\baitap5_64132989\\views\\guiemail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{62C8D0D8-C212-4804-92A4-6622158A0C77}|BaiTap5_64132989\\BaiTap5_64132989.csproj|solutionrelative:baitap5_64132989\\views\\guiemail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,101 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DangKyController.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Controllers\\DangKyController.cs",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Controllers\\DangKyController.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Controllers\\DangKyController.cs",
-              "RelativeToolTip": "BaiTap5_64132989\\Controllers\\DangKyController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T05:49:49.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "banner.txt",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\App_Data\\banner.txt",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\App_Data\\banner.txt",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\App_Data\\banner.txt",
-              "RelativeToolTip": "BaiTap5_64132989\\App_Data\\banner.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-20T05:49:39.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BaiTap5_64132989\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T05:49:05.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BaiTap5_64132989\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T05:46:35.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\DangKy\\Index.cshtml",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Views\\DangKy\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\DangKy\\Index.cshtml",
-              "RelativeToolTip": "BaiTap5_64132989\\Views\\DangKy\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T05:46:31.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ChangeBanner.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\Home\\ChangeBanner.cshtml",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Views\\Home\\ChangeBanner.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\Home\\ChangeBanner.cshtml",
-              "RelativeToolTip": "BaiTap5_64132989\\Views\\Home\\ChangeBanner.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T05:46:18.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\GuiEmail\\Index.cshtml",
-              "RelativeDocumentMoniker": "BaiTap5_64132989\\Views\\GuiEmail\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap5_64132989\\BaiTap5_64132989\\Views\\GuiEmail\\Index.cshtml",
-              "RelativeToolTip": "BaiTap5_64132989\\Views\\GuiEmail\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T05:44:44.759Z",
-              "EditorCaption": ""
             }
           ]
         }

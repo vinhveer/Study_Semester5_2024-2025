@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using BaiTap2_64132989.Models;
+using System.Web.Mvc;
 
 namespace BaiTap2_64132989.Controllers
 {
@@ -16,7 +17,9 @@ namespace BaiTap2_64132989.Controllers
         {
             if (ModelState.IsValid)
             {
-                return RedirectToAction("Result", sv);
+                // Store the model in TempData to pass to the POST Result method
+                TempData["SinhVien"] = sv;
+                return RedirectToAction("Result");
             }
 
             return View(sv);
@@ -36,7 +39,10 @@ namespace BaiTap2_64132989.Controllers
             sv.studentId = Request["studentId"];
             sv.studentName = Request["studentName"];
             sv.studentMark = Request["studentMark"];
-            return RedirectToAction("Result", sv);
+
+            // Store the model in TempData to pass to the POST Result method
+            TempData["SinhVien"] = sv;
+            return RedirectToAction("Result");
         }
 
         // GET: SinhVien_64132989/UseArguments
@@ -53,7 +59,10 @@ namespace BaiTap2_64132989.Controllers
             sv.studentId = studentId;
             sv.studentName = studentName;
             sv.studentMark = studentMark;
-            return RedirectToAction("Result", sv);
+
+            // Store the model in TempData to pass to the POST Result method
+            TempData["SinhVien"] = sv;
+            return RedirectToAction("Result");
         }
 
         // GET: SinhVien_64132989/UseFormCollection
@@ -70,11 +79,14 @@ namespace BaiTap2_64132989.Controllers
             sv.studentId = form["studentId"];
             sv.studentName = form["studentName"];
             sv.studentMark = form["studentMark"];
-            return RedirectToAction("Result", sv);
+
+            // Store the model in TempData to pass to the POST Result method
+            TempData["SinhVien"] = sv;
+            return RedirectToAction("Result");
         }
 
-        // GET: SinhVien_64132989/Result
-        public ActionResult Result(Models.SinhVienModels sv)
+        // POST: SinhVien_64132989/Result
+        public ActionResult Result(SinhVienModels sv)
         {
             if (sv == null)
             {

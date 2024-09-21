@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\pheptoan_64132989\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\pheptoan_64132989\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\pheptoan_64132989\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\pheptoan_64132989\\useformcollection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\controllers\\calculatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\usearguments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\calculate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\calculate\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\controllers\\pheptoan_64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\controllers\\pheptoan_64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\models\\calculatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\models\\calculatemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\pheptoan_64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\pheptoan_64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|c:\\users\\vinhnq\\desktop\\vinhveer_repos\\study_semester5_2024-2025\\asp.net_mvc\\baitap1_64132989\\baitap1_64132989\\views\\pheptoan_64132989\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7F203A6D-3192-4BB4-BD88-3E76FBBF3109}|BaiTap1_64132989\\BaiTap1_64132989.csproj|solutionrelative:baitap1_64132989\\views\\pheptoan_64132989\\userequest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +34,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UseRequest.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
-              "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\UseRequest.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T13:42:55.222Z",
+              "DocumentIndex": 2,
+              "Title": "PhepToan_64132989Controller.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\PhepToan_64132989Controller.cs",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Controllers\\PhepToan_64132989Controller.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\PhepToan_64132989Controller.cs",
+              "RelativeToolTip": "BaiTap1_64132989\\Controllers\\PhepToan_64132989Controller.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:07:44.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UseArguments.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
-              "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\UseArguments.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T13:39:30.857Z",
+              "Title": "CalculateModels.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Models\\CalculateModels.cs",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Models\\CalculateModels.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Models\\CalculateModels.cs",
+              "RelativeToolTip": "BaiTap1_64132989\\Models\\CalculateModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T01:07:40.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UseFormCollection.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
-              "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\UseFormCollection.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseFormCollection.cshtml",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseFormCollection.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseFormCollection.cshtml",
+              "RelativeToolTip": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseFormCollection.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T13:36:57.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FilterConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\FilterConfig.cs",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\App_Start\\FilterConfig.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\FilterConfig.cs",
-              "RelativeToolTip": "BaiTap1_64132989\\App_Start\\FilterConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T13:34:10.113Z",
+              "WhenOpened": "2024-09-21T01:06:57.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "BaiTap1_64132989\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T13:33:31.333Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\PhepToan_64132989\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\Index.cshtml",
+              "RelativeToolTip": "BaiTap1_64132989\\Views\\PhepToan_64132989\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T01:06:49.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CalculateController.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\CalculateController.cs",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Controllers\\CalculateController.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Controllers\\CalculateController.cs",
-              "RelativeToolTip": "BaiTap1_64132989\\Controllers\\CalculateController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAA0wJIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T13:12:21.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CalculateModels.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Models\\CalculateModels.cs",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Models\\CalculateModels.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Models\\CalculateModels.cs",
-              "RelativeToolTip": "BaiTap1_64132989\\Models\\CalculateModels.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T13:10:09.846Z",
+              "DocumentIndex": 0,
+              "Title": "UseArguments.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseArguments.cshtml",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseArguments.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseArguments.cshtml",
+              "RelativeToolTip": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseArguments.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T01:06:48.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
-              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
-              "RelativeToolTip": "BaiTap1_64132989\\Views\\Calculate\\Index.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Title": "UseRequest.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseRequest.cshtml",
+              "RelativeDocumentMoniker": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseRequest.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\vinhveer_repos\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap1_64132989\\BaiTap1_64132989\\Views\\PhepToan_64132989\\UseRequest.cshtml",
+              "RelativeToolTip": "BaiTap1_64132989\\Views\\PhepToan_64132989\\UseRequest.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T12:56:00.712Z",
+              "WhenOpened": "2024-09-21T01:07:01.401Z",
               "EditorCaption": ""
             }
           ]

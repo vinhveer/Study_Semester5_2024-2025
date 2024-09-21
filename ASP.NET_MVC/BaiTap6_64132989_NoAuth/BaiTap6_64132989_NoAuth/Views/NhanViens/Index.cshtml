@@ -1,0 +1,86 @@
+﻿@model IEnumerable<BaiTap6_64132989_NoAuth.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5 class="display-6">Danh sách nhân viên</h5>
+
+@Html.ActionLink("Thêm nhân viên mới", "Create", null, new { @class = "btn btn-success mb-4 mt-3" })
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().HoNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TenNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().GioiTinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().NgaySinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Luong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().AnhNV)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().DiaChi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().PhongBan.TenPhongBan)
+            </th>
+            <th>
+                Hành động
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="align-middle">
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoNV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenNV)
+                </td>
+                <td>
+                    @(item.GioiTinh ? "Nam" : "Nữ")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgaySinh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Luong)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnhNV)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhongBan.TenPhongBan)
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", "NhanViens", new { id = item.MaNV })" class="btn btn-primary mx-1" title="Edit" role="button">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                    <a href="@Url.Action("Details", "NhanViens", new { id = item.MaNV })" class="btn btn-info mx-1" title="Details" role="button">
+                        <i class="fas fa-info-circle"></i>
+                    </a>
+                    <a href="@Url.Action("Delete", "NhanViens", new { id = item.MaNV })" class="btn btn-danger mx-1" title="Delete" role="button">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

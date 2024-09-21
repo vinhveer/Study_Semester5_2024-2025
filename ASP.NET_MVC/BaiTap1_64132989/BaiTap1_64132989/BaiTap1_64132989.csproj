@@ -120,7 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\CalculateController.cs" />
+    <Compile Include="Controllers\PhepToan_64132989Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -139,16 +139,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Calculate\Index.cshtml" />
+    <Content Include="Views\PhepToan_64132989\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Views\Calculate\UseFormCollection.cshtml" />
-    <Content Include="Views\Calculate\UseArguments.cshtml" />
-    <Content Include="Views\Calculate\UseRequest.cshtml" />
+    <Content Include="Views\PhepToan_64132989\UseFormCollection.cshtml" />
+    <Content Include="Views\PhepToan_64132989\UseArguments.cshtml" />
+    <Content Include="Views\PhepToan_64132989\UseRequest.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
