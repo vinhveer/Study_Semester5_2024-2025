@@ -1,5 +1,5 @@
 ﻿using System.Web.Mvc;
-
+using BaiTap1_64132989.Models;
 namespace BaiTap1_64132989.Controllers
 {
     public class PhepToan_64132989Controller : Controller
@@ -12,7 +12,7 @@ namespace BaiTap1_64132989.Controllers
         }
 
         [HttpPost]
-        public ActionResult Index(Models.CalculateModels model)
+        public ActionResult Index(CalculateModels model)
         {
             double result = 0;
 

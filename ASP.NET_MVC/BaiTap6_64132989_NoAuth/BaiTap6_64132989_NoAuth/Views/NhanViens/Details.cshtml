@@ -5,79 +5,55 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
-
-<div>
-    <h4>NhanVien</h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.HoNV)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.HoNV)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.TenNV)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.TenNV)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.GioiTinh)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.GioiTinh)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.NgaySinh)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.NgaySinh)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Luong)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Luong)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.AnhNV)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AnhNV)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.DiaChi)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.DiaChi)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.PhongBan.TenPhongBan)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.PhongBan.TenPhongBan)
-        </dd>
-
-    </dl>
+<div class="mt-3 mb-2">
+    <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+        <i class="fas fa-arrow-left me-2"></i> Trở về danh sách
+    </a>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MaNV }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+
+<div class="row">
+    <div class="col-sm-6">
+        <h3 class="display-6">Thông tin nhân viên</h3>
+    </div>
+    <div class="col-sm-6">
+        @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaNV }, new { @class = "btn btn-outline-success float-end me-2" })
+        @Html.ActionLink("Xóa", "Delete", new { id = Model.MaNV }, new { @class = "btn btn-outline-danger float-end me-2" })
+    </div>
+</div>
+<hr />
+<div class="card mt-3">
+    <div class="card-body shadow-sm border-0">
+        <div class="row">
+            <div class="col-sm-3">
+                @if (!string.IsNullOrEmpty(Model.AnhNV))
+                {
+                    <img src="@Url.Content(Model.AnhNV)" alt="Ảnh đại diện" class="img-thumbnail" />
+                }
+                else
+                {
+                    <img src="~/images/anh.png" alt="Avatar" class="img-thumbnail" />
+                }
+            </div>
+            <div class="col-sm-9">
+                <h4 class="col-sm-9">@Model.HoNV @Model.TenNV</h4>
+                <dl class="row">
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NgaySinh)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.GioiTinh)</dt>
+                    <dd class="col-sm-9">@(Model.GioiTinh ? "Nam" : "Nữ")</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Luong)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.Luong)</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.DiaChi)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.DiaChi)</dd>
+
+                    @* Dùng thông tin từ bảng phòng ban *@
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.PhongBan.TenPhongBan)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.PhongBan.TenPhongBan)</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
