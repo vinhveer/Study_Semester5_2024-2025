@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989_noauth\\baitap6_64132989_noauth\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\baitap6_64132989_noauth\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|solutionrelative:baitap6_64132989_noauth\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\baitap6_64132989_noauth\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989_noauth\\baitap6_64132989_noauth\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|solutionrelative:baitap6_64132989_noauth\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989_noauth\\baitap6_64132989_noauth\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\baitap6_64132989_noauth\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|solutionrelative:baitap6_64132989_noauth\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989_noauth\\baitap6_64132989_noauth\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\baitap6_64132989_noauth\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{17617B39-0593-487A-8934-AD72E4909ADD}|BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth.csproj|solutionrelative:baitap6_64132989_noauth\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,6 +53,10 @@
               "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Create.cshtml",
@@ -60,7 +64,7 @@
               "RelativeDocumentMoniker": "BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Create.cshtml",
               "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Create.cshtml",
               "RelativeToolTip": "BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Create.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T14:33:21.755Z",
               "EditorCaption": ""
@@ -75,8 +79,7 @@
               "RelativeToolTip": "BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T14:31:12.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T14:31:12.162Z"
             },
             {
               "$type": "Document",
@@ -88,8 +91,7 @@
               "RelativeToolTip": "BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T14:23:09.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T14:23:09.979Z"
             },
             {
               "$type": "Document",
@@ -101,12 +103,7 @@
               "RelativeToolTip": "BaiTap6_64132989_NoAuth\\Views\\NhanViens\\Index.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T12:05:12.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-09-20T12:05:12.574Z"
             },
             {
               "$type": "Document",
@@ -128,7 +125,7 @@
               "RelativeDocumentMoniker": "BaiTap6_64132989_NoAuth\\Controllers\\NhanViensController.cs",
               "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989_NoAuth\\BaiTap6_64132989_NoAuth\\Controllers\\NhanViensController.cs",
               "RelativeToolTip": "BaiTap6_64132989_NoAuth\\Controllers\\NhanViensController.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAzwKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T20:26:21.063Z",
               "EditorCaption": ""

@@ -1,11 +1,7 @@
 ﻿@model BaiTap2_64132989.Models.SinhVienModels
 
-@{
-    Layout = null;
-}
-
 <!doctype html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,15 +11,10 @@
 <body>
     <div class="container mt-5">
         <h3>Thông tin sinh viên đã đăng ký</h3>
-    </div>
+        <p><b>Mã số sinh viên: </b>@Model.studentId</p>
+        <p><b>Họ và tên: </b>@Model.studentName</p>
+        <p><b>Điểm số: </b>@Model.studentMark</p>
 
-    <div class="container mt-5">
-        <p><b>Mã số sinh viên: </b>@Model.studentId </p>
-        <p><b>Họ và tên: </b>@Model.studentName </p>
-        <p><b>Điểm số: </b>@Model.studentMark </p>
-    </div>
-
-    <div class="container mt-4">
         <a href="@Url.Action("Index", "SinhVien_64132989")" class="btn btn-primary">Quay lại</a>
     </div>
 
