@@ -156,7 +156,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\anh.png" />
@@ -185,6 +184,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Models\ModelQLNV_64132989.edmx">
@@ -195,7 +195,6 @@
       <DependentUpon>ModelQLNV_64132989.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
-    <Content Include="Views\NhanViens\Create.cshtml" />
     <Content Include="Views\NhanViens\Delete.cshtml" />
     <Content Include="Views\NhanViens\Details.cshtml" />
     <Content Include="Views\NhanViens\Edit.cshtml" />
@@ -206,6 +205,7 @@
     <Content Include="Views\PhongBans\Edit.cshtml" />
     <Content Include="Views\PhongBans\Index.cshtml" />
     <Content Include="Views\TimKiem\Index.cshtml" />
+    <Content Include="Views\NhanViens\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
