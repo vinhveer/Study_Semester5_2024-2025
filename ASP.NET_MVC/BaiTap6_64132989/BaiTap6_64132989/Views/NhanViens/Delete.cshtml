@@ -1,0 +1,62 @@
+﻿@model BaiTap6_64132989.Models.NhanVien
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-3 mb-2">
+    <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+        <i class="fas fa-arrow-left me-2"></i> Trở về danh sách
+    </a>
+</div>
+
+<h3>Xác nhận xóa nhân viên</h3>
+<hr />
+<h5 class="mt-4">Bạn có chắc chắn muốn xóa nhân viên này không?</h5>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions no-color mt-3">
+        <input type="submit" value="Xóa nhân viên" class="btn btn-danger" /> |
+        @Html.ActionLink("Hủy", "Index", null, new { @class = "btn btn-outline-secondary" })
+    </div>
+}
+
+<div class="card mt-3">
+    <div class="card-body shadow-sm border-0">
+        <div class="row">
+            <div class="col-sm-3">
+                @if (!string.IsNullOrEmpty(Model.AnhNV))
+                {
+                    <img src="@Url.Content(Model.AnhNV)" alt="Ảnh đại diện" class="img-thumbnail" />
+                }
+                else
+                {
+                    <img src="~/images/anh.png" alt="Avatar" class="img-thumbnail" />
+                }
+            </div>
+            <div class="col-sm-9">
+                <h4 class="col-sm-9">@Model.HoNV @Model.TenNV</h4>
+                <dl class="row">
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.NgaySinh)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.GioiTinh)</dt>
+                    <dd class="col-sm-9">@(Model.GioiTinh ? "Nam" : "Nữ")</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.Luong)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.Luong)</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.DiaChi)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.DiaChi)</dd>
+
+                    <dt class="col-sm-3">@Html.DisplayNameFor(model => model.PhongBan.TenPhongBan)</dt>
+                    <dd class="col-sm-9">@Html.DisplayFor(model => model.PhongBan.TenPhongBan)</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

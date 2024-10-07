@@ -1,0 +1,42 @@
+﻿@model BaiTap6_64132989.Models.PhongBan
+
+@{
+    ViewBag.Title = "Xóa Phòng Ban";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-3 mb-2">
+    <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+        <i class="fas fa-arrow-left me-2"></i> Trở về danh sách
+    </a>
+</div>
+
+<h3 class="mt-3 mb-3">Bạn có chắc chắn muốn xóa phòng ban này không?</h3>
+<hr />
+<div>
+    <h5>Thông tin phòng ban</h5>
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.MaPhongBan)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MaPhongBan)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TenPhongBan)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.TenPhongBan)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(model => model.MaPhongBan)
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-danger">Xóa phòng ban</button>
+        </div>
+    }
+</div>
