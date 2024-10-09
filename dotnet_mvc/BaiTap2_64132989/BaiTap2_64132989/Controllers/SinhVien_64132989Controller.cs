@@ -5,6 +5,7 @@ namespace BaiTap2_64132989.Controllers
 {
     public class SinhVien_64132989Controller : Controller
     {
+        // Use Model Binding
         // GET: SinhVien_64132989/Index
         public ActionResult Index()
         {
@@ -24,6 +25,7 @@ namespace BaiTap2_64132989.Controllers
             return View(sv);
         }
 
+        // Use Request
         // GET: SinhVien_64132989/UseRequest
         public ActionResult UseRequest()
         {
@@ -45,6 +47,7 @@ namespace BaiTap2_64132989.Controllers
             return RedirectToAction("Result");
         }
 
+        // Use Arguments
         // GET: SinhVien_64132989/UseArguments
         public ActionResult UseArguments()
         {
@@ -66,6 +69,7 @@ namespace BaiTap2_64132989.Controllers
             return RedirectToAction("Result");
         }
 
+        // Use FormCollection
         // GET: SinhVien_64132989/UseFormCollection
         public ActionResult UseFormCollection()
         {

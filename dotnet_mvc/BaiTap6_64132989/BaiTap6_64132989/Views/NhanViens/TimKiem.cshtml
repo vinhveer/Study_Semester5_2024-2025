@@ -5,10 +5,13 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h3 class="title">Tìm kiếm nhân viên</h3>
+<h3 class="mt-3 mb-3">Tìm kiếm nhân viên</h3>
 
 <!-- Form tìm kiếm -->
-<form method="get" action="@Url.Action("TimKiem", "NhanViens")" class="mb-4">
+@using (Html.BeginForm("TimKiem", "NhanViens", FormMethod.Get, new { @class = "mb-4" }))
+{
+    @Html.AntiForgeryToken() 
+
     <div class="row mb-3">
         <div class="col-md-3">
             <label for="maNV" class="form-label">Mã nhân viên</label>
@@ -48,21 +51,21 @@
     </div>
 
     <button type="submit" class="btn btn-primary">Tìm kiếm</button>
-</form>
+}
 
 <!-- Kết quả tìm kiếm -->
-<table class="table table-bordered table-striped align-middle">
+<table class="table table-striped align-middle">
     <thead>
         <tr>
-            <th>Mã NV</th>
-            <th>Họ</th>
-            <th>Tên</th>
-            <th>Giới tính</th>
-            <th>Ngày sinh</th>
-            <th>Lương</th>
-            <th>Địa chỉ</th>
-            <th>Phòng ban</th>
-            <th>Hành động</th>
+            <th>#</th>
+            <th>@Html.DisplayNameFor(model => model.First().HoNV)</th>
+            <th>@Html.DisplayNameFor(model => model.First().TenNV)</th>
+            <th>@Html.DisplayNameFor(model => model.First().GioiTinh)</th>
+            <th>@Html.DisplayNameFor(model => model.First().NgaySinh)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Luong)</th>
+            <th>@Html.DisplayNameFor(model => model.First().DiaChi)</th>
+            <th>@Html.DisplayNameFor(model => model.First().PhongBan.TenPhongBan)</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -70,17 +73,28 @@
         {
             <tr>
                 <td>@item.MaNV</td>
-                <td>@item.HoNV</td>
-                <td>@item.TenNV</td>
+                <td>@Html.DisplayFor(modelItem => item.HoNV)</td>
+                <td>@Html.DisplayFor(modelItem => item.TenNV)</td>
                 <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
-                <td>@item.NgaySinh?.ToString("dd/MM/yyyy")</td>
-                <td>@item.Luong</td>
-                <td>@item.DiaChi</td>
-                <td>@item.PhongBan.TenPhongBan</td>
-                <td>
-                    <a href="@Url.Action("Edit", "NhanViens", new { id = item.MaNV })" class="btn btn-secondary btn-sm">Sửa</a>
-                    <a href="@Url.Action("Details", "NhanViens", new { id = item.MaNV })" class="btn btn-info btn-sm">Xem</a>
-                    <a href="@Url.Action("Delete", "NhanViens", new { id = item.MaNV })" class="btn btn-danger btn-sm">Xóa</a>
+                <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                <td>@Html.DisplayFor(modelItem => item.Luong)</td>
+                <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                <td>@Html.DisplayFor(modelItem => item.PhongBan.TenPhongBan)</td>
+                <td class="p-0">
+                    <div class="d-flex flex-row h-100">
+                        <a href="@Url.Action("Edit", "NhanViens", new { id = item.MaNV })"
+                           class="text-decoration-none me-3 text-secondary" title="Sửa" role="button">
+                            <i class="fas fa-edit fs-5"></i>
+                        </a>
+                        <a href="@Url.Action("Details", "NhanViens", new { id = item.MaNV })"
+                           class="text-decoration-none me-3 text-secondary" title="Chi tiết" role="button">
+                            <i class="fas fa-info-circle fs-5"></i>
+                        </a>
+                        <a href="@Url.Action("Delete", "NhanViens", new { id = item.MaNV })"
+                           class="text-decoration-none text-danger" title="Xóa" role="button">
+                            <i class="fas fa-trash-alt fs-5"></i>
+                        </a>
+                    </div>
                 </td>
             </tr>
         }

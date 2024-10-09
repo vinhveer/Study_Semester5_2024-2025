@@ -192,13 +192,13 @@ namespace BaiTap6_64132989.Controllers
         }
 
         [HttpGet]
-        public ActionResult TimKiem(string maNV, string hoTen, bool? gioiTinh, decimal? luongMin, decimal? luongMax, string diaChi, string phongBan, int page = 1)
+        public ActionResult TimKiem(string maNV, string hoTen, bool? gioiTinh, int? maPhongBan, decimal? luongTu, decimal? luongDen, string diaChi, int page = 1)
         {
-            var nhanViens = db.NhanViens.Include(nv => nv.PhongBan);
+            // Lấy danh sách nhân viên từ database và áp dụng bộ lọc
+            var nhanViens = db.NhanViens.AsQueryable();
 
             if (!string.IsNullOrEmpty(maNV))
             {
-                // Chuyển đổi Mã nhân viên nhập vào thành int
                 if (int.TryParse(maNV, out int maNVInt))
                 {
                     nhanViens = nhanViens.Where(nv => nv.MaNV == maNVInt);
@@ -207,45 +207,47 @@ namespace BaiTap6_64132989.Controllers
 
             if (!string.IsNullOrEmpty(hoTen))
             {
-                string hoTenNoDau = RemoveDiacritics(hoTen);
-                nhanViens = nhanViens.Where(nv => (RemoveDiacritics(nv.HoNV) + " " + RemoveDiacritics(nv.TenNV)).Contains(hoTenNoDau));
+                nhanViens = nhanViens.Where(nv => nv.HoNV.Contains(hoTen) || nv.TenNV.Contains(hoTen));
             }
-
             if (gioiTinh.HasValue)
             {
-                nhanViens = nhanViens.Where(nv => nv.GioiTinh == gioiTinh.Value);
+                nhanViens = nhanViens.Where(nv => nv.GioiTinh == gioiTinh);
             }
-
-            if (luongMin.HasValue)
+            if (maPhongBan.HasValue)
             {
-                nhanViens = nhanViens.Where(nv => nv.Luong >= luongMin.Value);
+                nhanViens = nhanViens.Where(nv => nv.MaPhongBan == maPhongBan);
             }
-
-            if (luongMax.HasValue)
+            if (luongTu.HasValue)
             {
-                nhanViens = nhanViens.Where(nv => nv.Luong <= luongMax.Value);
+                nhanViens = nhanViens.Where(nv => nv.Luong >= luongTu);
             }
-
+            if (luongDen.HasValue)
+            {
+                nhanViens = nhanViens.Where(nv => nv.Luong <= luongDen);
+            }
             if (!string.IsNullOrEmpty(diaChi))
             {
-                string diaChiNoDau = RemoveDiacritics(diaChi);
-                nhanViens = nhanViens.Where(nv => RemoveDiacritics(nv.DiaChi).Contains(diaChiNoDau));
+                nhanViens = nhanViens.Where(nv => nv.DiaChi.Contains(diaChi));
             }
 
-            if (!string.IsNullOrEmpty(phongBan))
-            {
-                string phongBanNoDau = RemoveDiacritics(phongBan);
-                nhanViens = nhanViens.Where(nv => RemoveDiacritics(nv.PhongBan.TenPhongBan).Contains(phongBanNoDau));
-            }
+            // Thêm OrderBy để tránh lỗi khi sử dụng Skip
+            nhanViens = nhanViens.OrderBy(nv => nv.MaNV);
 
+            // Phân trang
+            var totalRecords = nhanViens.Count();
+            var totalPages = (int)Math.Ceiling((double)totalRecords / 5);
+            var currentRecords = nhanViens.Skip((page - 1) * 5).Take(5).ToList();
+
+            // Lấy danh sách Phòng ban để truyền vào ViewBag
+            ViewBag.MaPhongBan = new SelectList(db.PhongBans.ToList(), "MaPhongBan", "TenPhongBan");
+
+            // Truyền dữ liệu phân trang sang View
             ViewBag.CurrentPage = page;
-            ViewBag.TotalRecords = nhanViens.Count();
-            ViewBag.TotalPages = (int)Math.Ceiling((double)ViewBag.TotalRecords / 5);
-            ViewBag.CurrentRecords = Math.Min(5, ViewBag.TotalRecords - ((page - 1) * 5));
+            ViewBag.TotalRecords = totalRecords;
+            ViewBag.TotalPages = totalPages;
+            ViewBag.CurrentRecords = currentRecords.Count();
 
-            var result = nhanViens.OrderBy(nv => nv.MaNV).Skip((page - 1) * 5).Take(5).ToList();
-
-            return View(result);
+            return View(currentRecords);
         }
 
         protected override void Dispose(bool disposing)

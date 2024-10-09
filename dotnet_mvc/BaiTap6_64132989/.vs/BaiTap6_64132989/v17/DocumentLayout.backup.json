@@ -1,62 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\",
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989\\baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989\\baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\asp.net_mvc\\baitap6_64132989\\baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\baitap6_64132989\\baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,63 +81,106 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TimKiem.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T10:17:01.777Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Models\\NhanVien.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
-              "RelativeToolTip": "BaiTap6_64132989\\Models\\NhanVien.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T10:06:17.112Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NhanViensController.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\NhanViensController.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
               "RelativeToolTip": "BaiTap6_64132989\\Controllers\\NhanViensController.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAmwM8AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-07T05:23:03.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T06:16:19.16Z"
+              "WhenOpened": "2024-10-07T05:50:15.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimKiem.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T10:17:01.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T05:28:32.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T05:48:36.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T05:41:04.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PhongBansController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAswH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T06:03:36.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
               "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -145,40 +188,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PhongBansController.cs",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
-              "RelativeToolTip": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAswH4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T06:03:36.885Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T05:48:36.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T06:16:19.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Models\\NhanVien.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T10:06:17.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "BaiTap6_64132989\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -186,23 +224,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T05:28:32.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
               "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -210,11 +236,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
               "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -222,39 +248,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T05:41:04.511Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
               "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
               "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-07T05:34:01.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\ASP.NET_MVC\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-07T05:50:15.028Z"
             }
           ]
         }

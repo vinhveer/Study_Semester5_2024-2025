@@ -16,7 +16,7 @@ namespace BaiTap1_64132989
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Calculate", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "PhepToan_64132989", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

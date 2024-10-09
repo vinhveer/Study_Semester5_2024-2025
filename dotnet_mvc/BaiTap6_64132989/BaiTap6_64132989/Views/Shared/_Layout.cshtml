@@ -3,10 +3,12 @@
     var currentController = ViewContext.RouteData.Values["controller"].ToString();
     var currentAction = ViewContext.RouteData.Values["action"].ToString();
 
-    if (controller.Equals(currentController, StringComparison.OrdinalIgnoreCase) &&
-        action.Equals(currentAction, StringComparison.OrdinalIgnoreCase))
+    // Kiểm tra nếu controller khớp và action khớp hoặc là "Index" khi action hiện tại là "Index"
+    if (controller.Equals(currentController, StringComparison.OrdinalIgnoreCase) && 
+        (action.Equals(currentAction, StringComparison.OrdinalIgnoreCase) || 
+        (action.Equals("Index", StringComparison.OrdinalIgnoreCase) && currentAction.Equals("Index", StringComparison.OrdinalIgnoreCase))))
     {
-        @:active
+        @: active
     }
 }
 
@@ -53,7 +55,7 @@
                         @Html.ActionLink("Phòng ban", "Index", "PhongBans", new { area = "" }, new { @class = "nav-link" + @IsActive("PhongBans", "Index") })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("Tìm kiếm", "Index", "TimKiem", new { area = "" }, new { @class = "nav-link" + @IsActive("TimKiem", "Index") })
+                        @Html.ActionLink("Tìm kiếm", "TimKiem", "NhanViens", new { area = "" }, new { @class = "nav-link" + @IsActive("NhanViens", "TimKiem") })
                     </li>
                 </ul>
                 <!-- Toggle Switch for Dark Mode -->

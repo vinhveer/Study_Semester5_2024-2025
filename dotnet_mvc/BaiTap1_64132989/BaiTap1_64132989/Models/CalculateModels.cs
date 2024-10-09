@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace BaiTap1_64132989.Models
+﻿namespace BaiTap1_64132989.Models
 {
     public class CalculateModels
     {
