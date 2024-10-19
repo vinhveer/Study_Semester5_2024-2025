@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{462D440A-3B6A-446F-8E7B-BBC5199B637A}</ProjectGuid>
+    <ProjectGuid>{AA3F4144-564B-4D4C-B108-45E0C79315F0}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -19,7 +19,7 @@
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44386</IISExpressSSLPort>
+    <IISExpressSSLPort>44348</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -129,21 +129,27 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\NhanViensController.cs" />
-    <Compile Include="Controllers\PhongBansController.cs" />
+    <Compile Include="Controllers\NhanViens_64132989Controller.cs" />
+    <Compile Include="Controllers\PhongBans_64132989Controller.cs" />
+    <Compile Include="Controllers\TrangChu_64132989Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\NhanVien.cs" />
     <Compile Include="Models\PhongBan.cs" />
+    <Compile Include="Models\QLNVDbContext_64132989.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\anh %283%29.png" />
+    <Content Include="Images\anh.jpg" />
     <Content Include="Images\anh.png" />
+    <Content Include="Images\IMG_0679.JPG" />
+    <Content Include="Images\noun-5g-core-network-7252690.svg" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -153,26 +159,24 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\NhanViens\Create.cshtml" />
-    <Content Include="Views\NhanViens\Delete.cshtml" />
-    <Content Include="Views\NhanViens\Details.cshtml" />
-    <Content Include="Views\NhanViens\Edit.cshtml" />
-    <Content Include="Views\NhanViens\Index.cshtml" />
-    <Content Include="Views\PhongBans\Create.cshtml" />
-    <Content Include="Views\PhongBans\Delete.cshtml" />
-    <Content Include="Views\PhongBans\Edit.cshtml" />
-    <Content Include="Views\PhongBans\Index.cshtml" />
+    <Content Include="Views\TrangChu_64132989\Index.cshtml" />
+    <Content Include="Views\NhanViens_64132989\Create.cshtml" />
+    <Content Include="Views\NhanViens_64132989\Delete.cshtml" />
+    <Content Include="Views\NhanViens_64132989\Details.cshtml" />
+    <Content Include="Views\NhanViens_64132989\Edit.cshtml" />
+    <Content Include="Views\NhanViens_64132989\Index.cshtml" />
+    <Content Include="Views\NhanViens_64132989\TimKiem.cshtml" />
+    <Content Include="Views\PhongBans_64132989\Delete.cshtml" />
+    <Content Include="Views\PhongBans_64132989\Edit.cshtml" />
+    <Content Include="Views\PhongBans_64132989\Index.cshtml" />
+    <Content Include="Views\PhongBans_64132989\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Views\NhanViens\TimKiem.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -190,9 +194,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49784</DevelopmentServerPort>
+          <DevelopmentServerPort>55818</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44386/</IISUrl>
+          <IISUrl>https://localhost:44348/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

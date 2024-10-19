@@ -1,0 +1,95 @@
+﻿@model BaiTap6_64132989.Models.NhanVien
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-3 mb-2">
+    <a href="@Url.Action("Index")" class="btn btn-outline-secondary">
+        <i class="fas fa-arrow-left me-2"></i> Trở về danh sách
+    </a>
+</div>
+
+<h3 class="mb-2 mt-3">Thêm nhân viên mới</h3>
+
+@using (Html.BeginForm("Create", "NhanViens", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-8">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.HoNV, htmlAttributes: new { @class = "form-label" })
+                    @Html.EditorFor(model => model.HoNV, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.HoNV, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-8">
+                    @Html.LabelFor(model => model.TenNV, htmlAttributes: new { @class = "form-label" })
+                    @Html.EditorFor(model => model.TenNV, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TenNV, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    @Html.LabelFor(model => model.GioiTinh, htmlAttributes: new { @class = "form-label" })
+                    @Html.DropDownListFor(model => model.GioiTinh,
+                        new SelectList(new[]
+                        {
+                            new { Value = "false", Text = "Nữ" },
+                            new { Value = "true", Text = "Nam" }
+                        }, "Value", "Text"),
+                        htmlAttributes: new { @class = "form-select" })
+                    @Html.ValidationMessageFor(model => model.GioiTinh, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-6">
+                    @Html.LabelFor(model => model.NgaySinh, htmlAttributes: new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.NgaySinh, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
+                    @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.Luong, htmlAttributes: new { @class = "form-label" })
+                    @Html.TextBoxFor(model => model.Luong, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Luong, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.DiaChi, htmlAttributes: new { @class = "form-label" })
+                    @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-md-4">
+                    @Html.LabelFor(model => model.MaPhongBan, "Phòng Ban", htmlAttributes: new { @class = "form-label" })
+                    @Html.DropDownList("MaPhongBan", null, htmlAttributes: new { @class = "form-select" })
+                    @Html.ValidationMessageFor(model => model.MaPhongBan, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="col-12 mt-3">
+                @Html.LabelFor(model => model.AnhNV, htmlAttributes: new { @class = "form-label" })
+                <input type="file" name="AnhNV" id="AnhNV" class="form-control" />
+                @Html.ValidationMessageFor(model => model.AnhNV, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-12 mt-3">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save me-2"></i> Tạo mới
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

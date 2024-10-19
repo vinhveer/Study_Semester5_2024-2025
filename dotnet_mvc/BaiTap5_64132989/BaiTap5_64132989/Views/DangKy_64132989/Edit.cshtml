@@ -1,0 +1,84 @@
+﻿@model BaiTap5_64132989.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "Đăng ký | Chỉnh sửa thành viên";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h3 class="display-6">Chỉnh sửa thông tin thành viên</h3>
+<hr />
+
+@Html.ActionLink("Trở về danh sách", "ListEmployee", "DangKy_64132989", null, new { @class = "btn btn-outline-secondary float-end me-2" })
+
+<p class="mt-4">Vui lòng chỉnh sửa các thông tin sau</p>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-warning">
+        @ViewBag.Message
+    </div>
+}
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <div class="col-md-4 mb-2">
+            @Html.HiddenFor(model => model.id)
+            @Html.LabelFor(model => model.fullName, new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.fullName, new { @class = "form-control", placeholder = "Nhập họ tên" })
+            @Html.ValidationMessageFor(model => model.fullName)
+        </div>
+        <div class="col-md-2 mb-2">
+            @Html.LabelFor(model => model.dateOfBirth, new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.dateOfBirth, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+            @Html.ValidationMessageFor(model => model.dateOfBirth)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 mb-2">
+            @Html.LabelFor(model => model.email, new { @class = "form-label" })
+            @Html.TextBoxFor(model => model.email, new { @class = "form-control", type = "email", placeholder = "Nhập email công ty" })
+            <div class="form-text">Email phải có định dạng đúng, ví dụ: name@company.com</div>
+            @Html.ValidationMessageFor(model => model.email)
+        </div>
+        <div class="col-md-6 mb-2">
+            @Html.LabelFor(model => model.password, new { @class = "form-label" })
+            @Html.PasswordFor(model => model.password, new { @class = "form-control", placeholder = "Nhập mật khẩu", id = "password" })
+            <div class="form-text">Mật khẩu phải có ít nhất 8 ký tự.</div>
+            @Html.ValidationMessageFor(model => model.password)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 mb-2">
+            @Html.LabelFor(model => model.department, new { @class = "form-label" })
+            @Html.DropDownListFor(model => model.department, new SelectList(new[] {
+                new { Value = "1", Text = "Kinh doanh" },
+                new { Value = "2", Text = "Kỹ thuật" },
+                new { Value = "3", Text = "Nhân sự" },
+            }, "Value", "Text", null), "Chọn phòng ban", new { @class = "form-select" })
+            @Html.ValidationMessageFor(model => model.department)
+        </div>
+        <div class="col-md-3 mb-2">
+            @Html.LabelFor(model => model.position, new { @class = "form-label" })
+            @Html.DropDownListFor(model => model.position, new SelectList(new[] {
+                new { Value = "1", Text = "Nhân viên" },
+                new { Value = "2", Text = "Trưởng phòng" },
+                new { Value = "3", Text = "Giám đốc" },
+            }, "Value", "Text", null), "Chọn chức vụ", new { @class = "form-select" })
+            @Html.ValidationMessageFor(model => model.position)
+        </div>
+        <div class="col-md-6 mb-2">
+            @Html.LabelFor(model => model.avatar, new { @class = "form-label" })
+            <input type="file" class="form-control" id="avatar" name="avatar" />
+            @Html.ValidationMessageFor(model => model.avatar)
+        </div>
+    </div>
+
+    <div class="d-grid mt-3">
+        <button type="submit" class="btn btn-primary">Lưu</button>
+    </div>
+}

@@ -3,14 +3,19 @@
     var currentController = ViewContext.RouteData.Values["controller"].ToString();
     var currentAction = ViewContext.RouteData.Values["action"].ToString();
 
-    // Kiểm tra nếu controller khớp và action khớp hoặc là "Index" khi action hiện tại là "Index"
-    if (controller.Equals(currentController, StringComparison.OrdinalIgnoreCase) && 
-        (action.Equals(currentAction, StringComparison.OrdinalIgnoreCase) || 
+    // Check if the controller and action match
+    if (controller.Equals(currentController, StringComparison.OrdinalIgnoreCase) &&
+        (action.Equals(currentAction, StringComparison.OrdinalIgnoreCase) ||
         (action.Equals("Index", StringComparison.OrdinalIgnoreCase) && currentAction.Equals("Index", StringComparison.OrdinalIgnoreCase))))
     {
         @: active
     }
+    else
+    {
+        @: string.Empty
+    }
 }
+
 
 <!DOCTYPE html>
 <html data-bs-theme="light">
@@ -37,7 +42,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-body-secondary shadow-sm">
         <div class="container">
-            @Html.ActionLink("Hệ thống quản lý thông tin nhân viên", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink("Hệ thống quản lý thông tin nhân viên", "Index", "TrangChu_64132989", new { area = "" }, new { @class = "navbar-brand" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
                     title="Toggle navigation" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -46,16 +51,16 @@
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav justify-content-end flex-grow-1 me-4 nav-underline">
                     <li class="nav-item">
-                        @Html.ActionLink("Giới thiệu", "Index", "Home", new { area = "" }, new { @class = "nav-link" + @IsActive("Home", "Index") })
+                        @Html.ActionLink("Giới thiệu", "Index", "TrangChu_64132989", new { area = "" }, new { @class = "nav-link" + @IsActive("TrangChu_64132989", "Index") })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("Nhân viên", "Index", "NhanViens", new { area = "" }, new { @class = "nav-link" + @IsActive("NhanViens", "Index") })
+                        @Html.ActionLink("Nhân viên", "Index", "NhanViens_64132989", new { area = "" }, new { @class = "nav-link" + @IsActive("NhanViens_64132989", "Index") })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("Phòng ban", "Index", "PhongBans", new { area = "" }, new { @class = "nav-link" + @IsActive("PhongBans", "Index") })
+                        @Html.ActionLink("Phòng ban", "Index", "PhongBans_64132989", new { area = "" }, new { @class = "nav-link" + @IsActive("PhongBans_64132989", "Index") })
                     </li>
                     <li class="nav-item">
-                        @Html.ActionLink("Tìm kiếm", "TimKiem", "NhanViens", new { area = "" }, new { @class = "nav-link" + @IsActive("NhanViens", "TimKiem") })
+                        @Html.ActionLink("Tìm kiếm", "TimKiem", "NhanViens_64132989", new { area = "" }, new { @class = "nav-link" + @IsActive("NhanViens_64132989", "TimKiem") })
                     </li>
                 </ul>
                 <!-- Toggle Switch for Dark Mode -->

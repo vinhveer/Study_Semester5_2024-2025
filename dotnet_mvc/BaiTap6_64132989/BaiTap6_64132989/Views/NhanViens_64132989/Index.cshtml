@@ -1,0 +1,146 @@
+﻿@model IEnumerable<BaiTap6_64132989.Models.NhanVien>
+
+@{
+    ViewBag.Title = "Danh sách nhân viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="title">Danh sách nhân viên</h3>
+
+<div class="mt-3 mb-3">
+    <a href="@Url.Action("Create")" class="btn btn-outline-success">
+        <i class="fas fa-plus me-2"></i> Thêm nhân viên mới
+    </a>
+    <!-- Nút xóa nhiều -->
+    <button id="deleteSelected" class="btn btn-outline-danger ms-2" disabled>
+        <i class="fas fa-trash-alt me-2"></i> Xóa nhân viên đã chọn
+    </button>
+</div>
+
+<!-- Điều hướng phân trang -->
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <p class="mb-0">Hiển thị @ViewBag.CurrentRecords nhân viên trên tổng số @ViewBag.TotalRecords nhân viên</p>
+    <nav aria-label="Page navigation">
+        <ul class="pagination mb-0">
+            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1 })">Trang trước</a>
+            </li>
+            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+            {
+                <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
+                </li>
+            }
+            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1 })">Trang tiếp theo</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<form id="nhanVienForm" method="post" action="@Url.Action("DeleteSelected", "NhanViens_64132989")">
+    @Html.AntiForgeryToken()
+    <table class="table table-border table-striped align-middle">
+        <thead>
+            <tr>
+                <th>
+                    <input type="checkbox" id="selectAll" class="form-check-input" />
+                </th>
+                <th>#</th>
+                <th>@Html.DisplayNameFor(model => model.First().HoNV)</th>
+                <th>@Html.DisplayNameFor(model => model.First().TenNV)</th>
+                <th>@Html.DisplayNameFor(model => model.First().GioiTinh)</th>
+                <th>@Html.DisplayNameFor(model => model.First().NgaySinh)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Luong)</th>
+                <th>@Html.DisplayNameFor(model => model.First().DiaChi)</th>
+                <th>@Html.DisplayNameFor(model => model.First().PhongBan.TenPhongBan)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div class="form-check">
+                            <input type="checkbox" name="selectedIds" value="@item.MaNV" class="form-check-input selectItem" id="checkbox_@item.MaNV" />
+                        </div>
+                    </td>
+                    <td>@item.MaNV</td>
+                    <td>@Html.DisplayFor(modelItem => item.HoNV)</td>
+                    <td>@Html.DisplayFor(modelItem => item.TenNV)</td>
+                    <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
+                    <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Luong)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                    <td>@Html.DisplayFor(modelItem => item.PhongBan.TenPhongBan)</td>
+                    <td class="p-0">
+                        <div class="d-flex flex-row h-100">
+                            <a href="@Url.Action("Edit", "NhanViens_64132989", new { id = item.MaNV })"
+                               class="text-decoration-none me-3 text-secondary" title="Sửa" role="button">
+                                <i class="fas fa-edit fs-5"></i>
+                            </a>
+                            <a href="@Url.Action("Details", "NhanViens_64132989", new { id = item.MaNV })"
+                               class="text-decoration-none me-3 text-secondary" title="Chi tiết" role="button">
+                                <i class="fas fa-info-circle fs-5"></i>
+                            </a>
+                            <a href="@Url.Action("Delete", "NhanViens_64132989", new { id = item.MaNV })"
+                               class="text-decoration-none text-danger" title="Xóa" role="button">
+                                <i class="fas fa-trash-alt fs-5"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>
+
+<!-- Modal Confirmation -->
+<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteConfirmationModalLabel">Xác nhận xóa</h5>
+            </div>
+            <div class="modal-body">
+                Bạn có chắc chắn muốn xóa những nhân viên đã chọn?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" id="confirmDelete" class="btn btn-danger">Xóa</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("selectAll").addEventListener("change", function () {
+        let isChecked = this.checked;
+        let checkboxes = document.querySelectorAll(".selectItem");
+        checkboxes.forEach(function (checkbox) {
+            checkbox.checked = isChecked;
+        });
+        toggleDeleteButton();
+    });
+
+    document.querySelectorAll(".selectItem").forEach(function (checkbox) {
+        checkbox.addEventListener("change", function () {
+            toggleDeleteButton();
+        });
+    });
+
+    function toggleDeleteButton() {
+        let selected = document.querySelectorAll(".selectItem:checked").length > 0;
+        document.getElementById("deleteSelected").disabled = !selected;
+    }
+
+    document.getElementById("deleteSelected").addEventListener("click", function () {
+        // Hiện modal xác nhận
+        $('#deleteConfirmationModal').modal('show');
+    });
+
+    document.getElementById("confirmDelete").addEventListener("click", function () {
+        document.getElementById("nhanVienForm").submit();
+    });
+</script>

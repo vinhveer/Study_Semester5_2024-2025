@@ -1,0 +1,38 @@
+﻿@model BaiTap6_64132989.Models.PhongBan
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Thêm phòng ban mới</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal shadow-sm p-4">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="mb-3 row">
+            <!-- Sử dụng 'row' cho Bootstrap layout -->
+            @Html.LabelFor(model => model.TenPhongBan, htmlAttributes: new { @class = "col-sm-2 col-form-label fw-semibold" }) <!-- Căn giữa nhãn -->
+            <div class="col-sm-10">
+                @Html.EditorFor(model => model.TenPhongBan, new { htmlAttributes = new { @class = "form-control shadow-sm" } }) <!-- Thêm shadow-sm cho input -->
+                @Html.ValidationMessageFor(model => model.TenPhongBan, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="offset-sm-2 col-sm-10">
+                <button type="submit" class="btn btn-primary px-4">Thêm mới</button> <!-- Đổi nút thành button với Bootstrap class -->
+                @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-outline-secondary ms-2" }) <!-- Thêm link quay lại với button outline -->
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\baitap6_64132989\\baitap6_64132989\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\phongbanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\baitap6_64132989\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{462D440A-3B6A-446F-8E7B-BBC5199B637A}|BaiTap6_64132989\\BaiTap6_64132989.csproj|solutionrelative:baitap6_64132989\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Create.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:32:58.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Delete.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:32:09.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:31:51.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\PhongBans\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:30:47.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PhongBansController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Controllers\\PhongBansController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:30:18.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Create.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:21:29.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Models\\NhanVien.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Models\\NhanVien.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T00:28:05.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:22:46.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:21:22.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Details.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:21:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Edit.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:21:07.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TimKiem.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\TimKiem.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:20:35.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowDMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T01:11:04.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Controllers\\NhanViensController.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAAAMBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:17:50.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaiTap6_64132989\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T01:09:57.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\BaiTap6_64132989\\BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "RelativeToolTip": "BaiTap6_64132989\\Views\\NhanViens\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAowJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-19T00:27:50.545Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
