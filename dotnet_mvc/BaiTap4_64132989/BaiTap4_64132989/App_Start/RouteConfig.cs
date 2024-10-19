@@ -16,7 +16,7 @@ namespace BaiTap4_64132989
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "GuiEmail_64132989", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
