@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KT0720_64132989Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TenLop" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="MaSV" />
+    </Key>
+    <Property Name="MaSV" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="HoSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="TenSV" Type="nvarchar" MaxLength="50" />
+    <Property Name="NgaySinh" Type="date" />
+    <Property Name="GioiTinh" Type="bit" />
+    <Property Name="AnhSV" Type="varbinary(max)" />
+    <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+    <Property Name="MaLop" Type="char" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK__SinhVien__MaLop__398D8EEE">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_TimKiemSinhVien" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="MaSV" Type="char" Mode="In" />
+    <Parameter Name="HoTen" Type="nvarchar" Mode="In" />
+    <Parameter Name="MaLop" Type="char" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="MaSV" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="HoSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="TenSV" Type="nvarchar" MaxLength="50" />
+          <Property Name="NgaySinh" Type="date" />
+          <Property Name="GioiTinh" Type="bit" />
+          <Property Name="AnhSV" Type="varbinary(max)" />
+          <Property Name="DiaChi" Type="nvarchar" MaxLength="100" />
+          <Property Name="MaLop" Type="char" MaxLength="10" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="KT0720_64132989ModelStoreContainer">
+    <EntitySet Name="Lop" EntityType="Self.Lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SinhVien" EntityType="Self.SinhVien" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__SinhVien__MaLop__398D8EEE" Association="Self.FK__SinhVien__MaLop__398D8EEE">
+      <End Role="Lop" EntitySet="Lop" />
+      <End Role="SinhVien" EntitySet="SinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

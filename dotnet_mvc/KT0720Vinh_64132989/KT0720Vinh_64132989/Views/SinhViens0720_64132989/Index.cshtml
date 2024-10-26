@@ -1,0 +1,76 @@
+﻿@model IEnumerable<KT0720Vinh_64132989.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var grid = new WebGrid(Model, canPage: true, rowsPerPage: 5, selectionFieldName: "selectedRow", ajaxUpdateContainerId: "gridContent");
+}
+
+<h3 class="mt-3 mb-3">Danh sách sinh viên</h3>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-outline-success">
+        <i class="fas fa-plus me-2"></i> Thêm sinh viên mới
+    </a>
+</p>
+
+<div id="gridContent">
+    @grid.GetHtml(
+        tableStyle: "table table-border table-striped align-middle",
+        headerStyle: "",
+        alternatingRowStyle: "table-light",
+        footerStyle: "footer",
+        columns: grid.Columns(
+            grid.Column("MaSV", "#", canSort: true),
+            grid.Column("HoSV", "Họ", canSort: true),
+            grid.Column("TenSV", "Tên", canSort: true),
+            grid.Column("NgaySinh", "Ngày Sinh", canSort: true, format: @<text>@item.NgaySinh.ToString("dd/MM/yyyy")</text>),
+grid.Column("GioiTinh", "Giới Tính", canSort: true, format: @<text>@(item.GioiTinh ? "Nam" : "Nữ")</text>),
+grid.Column("AnhSV", "Ảnh", canSort: false, format: @<text>@item.AnhSV</text>),
+grid.Column("DiaChi", "Địa Chỉ", canSort: true),
+grid.Column("Lop.TenLop", "Lớp", canSort: true),
+grid.Column("Actions", "Actions", format: @<text>
+    @Html.ActionLink("Chỉnh sửa", "Edit", "SinhViens0720_64132989", new { id = item.MaSV.Trim() }, new { @class = "btn btn-sm btn-outline-primary" })
+    @Html.ActionLink("Thông tin", "Details", "SinhViens0720_64132989", new { id = item.MaSV.Trim() }, new { @class = "btn btn-sm btn-outline-secondary" })
+    @Html.ActionLink("Xoá", "Delete", "SinhViens0720_64132989", new { id = item.MaSV.Trim() }, new { @class = "btn btn-sm btn-outline-danger" })
+</text>)
+)
+)
+</div>
+
+<div class="d-flex justify-content-center mt-3">
+    <ul class="pagination">
+        @if (grid.PageIndex > 0)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@grid.GetPageUrl(grid.PageIndex - 1)">Previous</a>
+            </li>
+        }
+
+        @for (var i = 1; i <= grid.PageCount; i++)
+        {
+            <li class="page-item @(grid.PageIndex + 1 == i ? "active" : "")">
+                <a class="page-link" href="@grid.GetPageUrl(i - 1)">@i</a>
+            </li>
+        }
+
+        @if (grid.PageIndex < grid.PageCount - 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@grid.GetPageUrl(grid.PageIndex + 1)">Next</a>
+            </li>
+        }
+    </ul>
+</div>
+
+<style>
+    /* Ẩn phân trang mặc định của WebGrid */
+    tr.footer {
+        display: none !important;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+</style>
