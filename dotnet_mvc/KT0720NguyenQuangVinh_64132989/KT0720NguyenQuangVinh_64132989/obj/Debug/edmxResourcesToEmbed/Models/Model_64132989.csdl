@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KT0720_64132989Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Lop">
+    <Key>
+      <PropertyRef Name="MaLop" />
+    </Key>
+    <Property Name="MaLop" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TenLop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="SinhViens" Relationship="Self.FK__SinhVien__MaLop__3A81B327" FromRole="Lop" ToRole="SinhVien" />
+  </EntityType>
+  <EntityType Name="SinhVien">
+    <Key>
+      <PropertyRef Name="MaSV" />
+    </Key>
+    <Property Name="MaSV" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="HoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NgaySinh" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="GioiTinh" Type="Boolean" Nullable="false" />
+    <Property Name="AnhSV" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MaLop" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <NavigationProperty Name="Lop" Relationship="Self.FK__SinhVien__MaLop__3A81B327" FromRole="SinhVien" ToRole="Lop" />
+  </EntityType>
+  <Association Name="FK__SinhVien__MaLop__3A81B327">
+    <End Role="Lop" Type="Self.Lop" Multiplicity="0..1" />
+    <End Role="SinhVien" Type="Self.SinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lop">
+        <PropertyRef Name="MaLop" />
+      </Principal>
+      <Dependent Role="SinhVien">
+        <PropertyRef Name="MaLop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KT0720_64132989Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Lops" EntityType="Self.Lop" />
+    <EntitySet Name="SinhViens" EntityType="Self.SinhVien" />
+    <AssociationSet Name="FK__SinhVien__MaLop__3A81B327" Association="Self.FK__SinhVien__MaLop__3A81B327">
+      <End Role="Lop" EntitySet="Lops" />
+      <End Role="SinhVien" EntitySet="SinhViens" />
+    </AssociationSet>
+    <FunctionImport Name="TimKiemSinhVien" ReturnType="Collection(KT0720_64132989Model.TimKiemSinhVien_Result)">
+      <Parameter Name="MaSV" Mode="In" Type="String" />
+      <Parameter Name="HoTen" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="TimKiemSinhVien_Result">
+    <Property Type="String" Name="MaSV" Nullable="false" MaxLength="5" />
+    <Property Type="String" Name="HoSV" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="TenSV" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="NgaySinh" Nullable="false" />
+    <Property Type="Boolean" Name="GioiTinh" Nullable="false" />
+    <Property Type="String" Name="AnhSV" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="DiaChi" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="MaLop" Nullable="true" MaxLength="5" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,93 @@
+﻿@model IEnumerable<KT0720NguyenQuangVinh_64132989.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Tìm Kiếm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Tìm Kiếm Sinh Viên</h2>
+
+@using (Html.BeginForm("TimKiem", "SinhViens64132989", FormMethod.Get))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Mã sinh viên</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="maSV" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Họ và tên</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="hoTen" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Tìm Kiếm</button>
+            </div>
+        </div>
+    </div>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>@Html.DisplayNameFor(model => model.MaSV)</th>
+            <th>@Html.DisplayNameFor(model => model.HoSV)</th>
+            <th>@Html.DisplayNameFor(model => model.TenSV)</th>
+            <th>@Html.DisplayNameFor(model => model.NgaySinh)</th>
+            <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+            <th>@Html.DisplayNameFor(model => model.AnhSV)</th>
+            <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
+            <th>@Html.DisplayNameFor(model => model.Lop.TenLop)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            var i = (ViewBag.CurrentPage - 1) * 5;
+            var j = 0;
+        }
+        @foreach (var item in Model)
+        {
+            j++;
+            <tr>
+                <td>@j</td>
+                <td>@Html.DisplayFor(modelItem => item.MaSV)</td>
+                <td>@Html.DisplayFor(modelItem => item.HoSV)</td>
+                <td>@Html.DisplayFor(modelItem => item.TenSV)</td>
+                <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+                <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
+                <td>@Html.DisplayFor(modelItem => item.AnhSV)</td>
+                <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                <td>@Html.DisplayFor(modelItem => item.Lop.TenLop)</td>
+                <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSV })</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    @if (ViewBag.TotalPages > 1)
+    {
+        for (int page = 1; page <= ViewBag.TotalPages; page++)
+        {
+            if (page == ViewBag.CurrentPage)
+            {
+                <span>@page</span> // Current page
+            }
+            else
+            {
+                <a href="@Url.Action("TimKiem", new { page = page, maSV = Request["maSV"], hoTen = Request["hoTen"] })">@page</a>
+            }
+        }
+    }
+</div>

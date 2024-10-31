@@ -1,0 +1,34 @@
+﻿@model IEnumerable<KT0720NguyenQuangVinh_64132989.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Danh sách sinh viên</h3>
+
+<p>
+    @Html.ActionLink("Thêm mới", "Create")
+</p>
+
+@{
+    var grid = new WebGrid(source: Model, canPage: true, canSort: true);
+}
+
+@grid.GetHtml(
+    tableStyle: "table",
+    headerStyle: "thead-light",
+    footerStyle: "grid-footer",
+    selectedRowStyle: "grid-row-selected",
+    columns: grid.Columns(
+        grid.Column("MaSV", "Mã SV"),
+        grid.Column("HoSV", "Họ"),
+        grid.Column("TenSV", "Tên"),
+        grid.Column("NgaySinh", "Ngày Sinh", format: (item) => item.NgaySinh.ToString("dd/MM/yyyy")),
+        grid.Column("GioiTinh", "Giới Tính", format: (item) => item.GioiTinh ? "Nam" : "Nữ"),
+        grid.Column("AnhSV", "Ảnh", format: (item) => Html.Raw($"<img src='{item.AnhSV}' alt='Ảnh sinh viên' style='width:50px;height:50px;' />")),
+        grid.Column("DiaChi", "Địa Chỉ"),
+        grid.Column("Lop.TenLop", "Lớp"),
+        grid.Column("Details", "Hành động", format: (item) => Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSV }))
+    )
+)
