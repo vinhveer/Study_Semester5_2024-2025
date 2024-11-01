@@ -22,14 +22,19 @@
                value="@Request.QueryString["searchString"]" />
     </div>
 
-    <div class="mb-3 d-flex">
-        <div class="me-5">
-            <label for="minPrice" class="form-label">Giá tối thiểu</label>
+    <label class="form-label">Đơn giá</label>
+    <div class="mb-3 d-flex align-items-center">
+        <div class="me-3">
+            Từ
+        </div>
+        <div class="me-3">
             <input type="text" class="form-control" id="minPrice" name="minPrice" placeholder="Giá tối thiểu"
                    value="@Request.QueryString["minPrice"]" />
         </div>
+        <div class="me-3">
+            Đến
+        </div>
         <div>
-            <label for="maxPrice" class="form-label">Giá tối đa</label>
             <input type="text" class="form-control" id="maxPrice" name="maxPrice" placeholder="Giá tối đa"
                    value="@Request.QueryString["maxPrice"]" />
         </div>
@@ -52,14 +57,14 @@ else
     <table class="table">
         <tr>
             <th>STT</th>
-            <th>@Html.DisplayNameFor(model => model.MaTS)</th>
-            <th>@Html.DisplayNameFor(model => model.TenTS)</th>
-            <th>@Html.DisplayNameFor(model => model.DVT)</th>
-            <th>@Html.DisplayNameFor(model => model.XuatXu)</th>
-            <th>@Html.DisplayNameFor(model => model.DonGia)</th>
-            <th>@Html.DisplayNameFor(model => model.AnhMH)</th>
-            <th>@Html.DisplayNameFor(model => model.LoaiTaiSan.TenLTS)</th>
-            <th>@Html.DisplayNameFor(model => model.GhiChu)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().MaTS)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().TenTS)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().DVT)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().XuatXu)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().DonGia)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().AnhMH)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().LoaiTaiSan.TenLTS)</th>
+            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().GhiChu)</th>
             <th></th>
         </tr>
 
@@ -73,16 +78,7 @@ else
                 <td>@Html.DisplayFor(modelItem => item.DVT)</td>
                 <td>@(item.XuatXu ? "Trong nước" : "Ngoại nhập")</td>
                 <td>@Html.DisplayFor(modelItem => item.DonGia)</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(item.AnhMH))
-                    {
-                        <img src="~/Images/@item.AnhMH" alt="Ảnh tài sản" class="img-thumbnail" style="max-width: 50px;" />
-                    }
-                    else
-                    {
-                        <p>Không có ảnh</p>
-                    }
-                </td>
+                <td>@Html.DisplayFor(modelItem => item.AnhMH)</td>
                 <td>@Html.DisplayFor(modelItem => item.LoaiTaiSan.TenLTS)</td>
                 <td>@Html.DisplayFor(modelItem => item.GhiChu)</td>
                 <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaTS })</td>
@@ -97,19 +93,34 @@ else
         @if (ViewBag.Page > 1)
         {
             <li class="page-item">
-                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = ViewBag.Page - 1 })">Previous</a>
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new {
+                    page = ViewBag.Page - 1,
+                    searchString = Request.QueryString["searchString"],
+                    minPrice = Request.QueryString["minPrice"],
+                    maxPrice = Request.QueryString["maxPrice"]
+                })">Previous</a>
             </li>
         }
         @for (int pageNum = 1; pageNum <= totalPages; pageNum++)
         {
             <li class="page-item @(pageNum == ViewBag.Page ? "active" : "")">
-                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = pageNum })">@pageNum</a>
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new {
+                    page = pageNum,
+                    searchString = Request.QueryString["searchString"],
+                    minPrice = Request.QueryString["minPrice"],
+                    maxPrice = Request.QueryString["maxPrice"]
+                })">@pageNum</a>
             </li>
         }
         @if (ViewBag.Page < totalPages)
         {
             <li class="page-item">
-                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = ViewBag.Page + 1 })">Next</a>
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new {
+                    page = ViewBag.Page + 1,
+                    searchString = Request.QueryString["searchString"],
+                    minPrice = Request.QueryString["minPrice"],
+                    maxPrice = Request.QueryString["maxPrice"]
+                })">Next</a>
             </li>
         }
     </ul>

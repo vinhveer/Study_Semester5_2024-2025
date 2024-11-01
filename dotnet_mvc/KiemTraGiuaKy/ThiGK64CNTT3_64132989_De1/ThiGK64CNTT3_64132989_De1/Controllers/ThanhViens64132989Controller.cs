@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data.Entity;
+using System.Data.SqlClient;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -76,65 +77,62 @@ namespace ThiGK64CNTT3_64132989_De1.Controllers
             return View(thanhVien);
         }
 
-        // GET: ThanhViens64132989/TimKiemThanhVien_64132989
-        // GET: ThanhViens64132989/TimKiemThanhVien_64132989
         [HttpGet]
         public ActionResult TimKiemTV_64132989(string HoTen, int? MaTinh, int page = 1, int pageSize = 2)
         {
-            var thanhViens = db.ThanhViens.Include(t => t.Tinh).AsQueryable();
+            // Viết truy vấn SQL với tìm kiếm không dấu bằng COLLATE
+            var sql = @"
+                SELECT * 
+                FROM ThanhVien
+                WHERE (@MaTinh IS NULL OR MaTinh = @MaTinh)
+                AND (@HoTen IS NULL OR (HoTV + ' ' + TenTV) COLLATE SQL_Latin1_General_CP1_CI_AI LIKE '%' + @HoTen + '%')
+                ORDER BY MaTV
+                OFFSET @Offset ROWS
+                FETCH NEXT @PageSize ROWS ONLY;";
 
-            // Lọc theo tỉnh trước nếu có
-            if (MaTinh.HasValue)
+            // Tính toán giá trị Offset dựa trên số trang và số bản ghi mỗi trang
+            int offset = (page - 1) * pageSize;
+
+            // Tham số cho truy vấn dữ liệu
+            var dataParameters = new[]
             {
-                thanhViens = thanhViens.Where(t => t.MaTinh == MaTinh.Value);
-            }
+        new SqlParameter("@MaTinh", MaTinh.HasValue ? (object)MaTinh.Value : DBNull.Value),
+        new SqlParameter("@HoTen", string.IsNullOrEmpty(HoTen) ? (object)DBNull.Value : HoTen),
+        new SqlParameter("@Offset", offset),
+        new SqlParameter("@PageSize", pageSize)
+    };
 
-            // Sử dụng AsEnumerable() để thực hiện phần còn lại của lọc trong bộ nhớ
-            var filteredThanhViens = thanhViens.AsEnumerable();
+            // Thực hiện truy vấn lấy dữ liệu
+            var thanhViens = db.Database.SqlQuery<ThanhVien>(sql, dataParameters).ToList();
 
-            // Áp dụng lọc bằng RemoveDiacritics sau khi chuyển sang IEnumerable
-            if (!string.IsNullOrEmpty(HoTen))
+            // Truy vấn đếm tổng số bản ghi sau khi lọc
+            var countSql = @"
+                SELECT COUNT(*)
+                FROM ThanhVien
+                WHERE (@MaTinh IS NULL OR MaTinh = @MaTinh)
+                AND (@HoTen IS NULL OR (HoTV + ' ' + TenTV) COLLATE SQL_Latin1_General_CP1_CI_AI LIKE '%' + @HoTen + '%');";
+
+            // Tham số cho truy vấn đếm
+            var countParameters = new[]
             {
-                string normalizedHoTen = RemoveDiacritics(HoTen.ToLower());
-                filteredThanhViens = filteredThanhViens
-                                     .Where(t => RemoveDiacritics((t.HoTV + " " + t.TenTV).ToLower()).Contains(normalizedHoTen));
-            }
+                new SqlParameter("@MaTinh", MaTinh.HasValue ? (object)MaTinh.Value : DBNull.Value),
+                new SqlParameter("@HoTen", string.IsNullOrEmpty(HoTen) ? (object)DBNull.Value : HoTen)
+            };
 
-            int totalItems = filteredThanhViens.Count(); // Đếm số bản ghi sau khi lọc
-            var paginatedItems = filteredThanhViens.OrderBy(t => t.MaTV)
-                                                   .Skip((page - 1) * pageSize)
-                                                   .Take(pageSize)
-                                                   .ToList(); // Phân trang
+            // Thực hiện truy vấn đếm
+            int totalItems = db.Database.SqlQuery<int>(countSql, countParameters).Single();
 
+            // Gán thông tin phân trang vào ViewBag
             ViewBag.TotalItems = totalItems;
             ViewBag.PageSize = pageSize;
             ViewBag.Page = page;
             ViewBag.HoTen = HoTen;
             ViewBag.MaTinh = new SelectList(db.Tinhs, "MaTinh", "TenTinh", MaTinh);
 
-            return View(paginatedItems);
+            return View(thanhViens);
         }
 
 
-        private string RemoveDiacritics(string text)
-        {
-            if (string.IsNullOrEmpty(text))
-                return text;
-
-            var normalizedString = text.Normalize(NormalizationForm.FormD);
-            var stringBuilder = new StringBuilder();
-
-            foreach (var c in normalizedString)
-            {
-                var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
-                if (unicodeCategory != UnicodeCategory.NonSpacingMark)
-                {
-                    stringBuilder.Append(c);
-                }
-            }
-
-            return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
-        }
 
         protected override void Dispose(bool disposing)
         {
