@@ -1,0 +1,51 @@
+﻿@model ThiGK64CNTT3_64132989_De2.Models.TaiSan
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Thông tin tài sản</h2>
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2 mb-4" })
+</div>
+
+<div class="card shadow-sm card-body d-flex">
+    <div class="d-flex flex-row align-items-start mb-3">
+        <div class="me-3 pe-4">
+            @if (!string.IsNullOrEmpty(Model.AnhMH))
+            {
+                <img src="~/Images/@Model.AnhMH" alt="Ảnh tài sản" class="rounded" style="max-width: 300px;" />
+            }
+            else
+            {
+                <p>Không có ảnh</p>
+            }
+        </div>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-4">Mã tài sản</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MaTS)</dd>
+
+                <dt class="col-sm-4">Tên tài sản</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TenTS)</dd>
+
+                <dt class="col-sm-4">Đơn vị tính</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DVT)</dd>
+
+                <dt class="col-sm-4">Xuất xứ</dt>
+                <dd class="col-sm-8">@(Model.XuatXu ? "Trong nước" : "Ngoại nhập")</dd>
+
+                <dt class="col-sm-4">Đơn giá</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DonGia)</dd>
+
+                <dt class="col-sm-4">Loại tài sản</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MaLTS)</dd>
+
+                <dt class="col-sm-4">Ghi chú</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.GhiChu)</dd>
+            </dl>
+        </div>
+    </div>
+</div>
+

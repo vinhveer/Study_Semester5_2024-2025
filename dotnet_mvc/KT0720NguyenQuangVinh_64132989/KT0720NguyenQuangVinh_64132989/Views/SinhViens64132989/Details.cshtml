@@ -1,75 +1,67 @@
 ﻿@model KT0720NguyenQuangVinh_64132989.Models.SinhVien
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Chi tiết";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Details</h2>
+<h2>Chi tiết</h2>
 
 <div>
-    <h4>SinhVien</h4>
+    <h4>Sinh viên</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
+    <dl class="row">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.HoSV)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.HoSV)
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.TenSV)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.TenSV)
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.NgaySinh)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NgaySinh)
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.GioiTinh)
         </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.GioiTinh)
+        <dd class="col-sm-10">
+            @(Model.GioiTinh ? "Nam" : "Nữ")
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.AnhSV)
         </dt>
-
-        <dd>
-            <img src="@Url.Content(Model.AnhSV)" alt="Ảnh sinh viên" />
+        <dd class="col-sm-10">
+            <img src="@Url.Content(Model.AnhSV)" alt="Ảnh sinh viên" class="img-fluid" />
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.DiaChi)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DiaChi)
         </dd>
 
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Lop.TenLop)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Lop.TenLop)
         </dd>
-
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.MaSV }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Chỉnh sửa", "Edit", new { id = Model.MaSV }, new { @class = "btn btn-primary" }) |
+    @Html.ActionLink("Quay lại danh sách", "Index", null, new { @class = "btn btn-secondary" })
 </p>

@@ -1,22 +1,22 @@
 ﻿@model IEnumerable<KT0720NguyenQuangVinh_64132989.Models.SinhVien>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Danh sách sinh viên";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h3>Danh sách sinh viên</h3>
 
 <p>
-    @Html.ActionLink("Thêm mới", "Create")
+    @Html.ActionLink("Thêm mới", "Create", null, new { @class = "btn btn-success" })
 </p>
 
 @{
-    var grid = new WebGrid(source: Model, canPage: true, canSort: true);
+    var grid = new WebGrid(source: Model, canPage: true, canSort: true, rowsPerPage: 10);
 }
 
 @grid.GetHtml(
-    tableStyle: "table",
+    tableStyle: "table table-striped",
     headerStyle: "thead-light",
     footerStyle: "grid-footer",
     selectedRowStyle: "grid-row-selected",
@@ -26,9 +26,9 @@
         grid.Column("TenSV", "Tên"),
         grid.Column("NgaySinh", "Ngày Sinh", format: (item) => item.NgaySinh.ToString("dd/MM/yyyy")),
         grid.Column("GioiTinh", "Giới Tính", format: (item) => item.GioiTinh ? "Nam" : "Nữ"),
-        grid.Column("AnhSV", "Ảnh", format: (item) => Html.Raw($"<img src='{item.AnhSV}' alt='Ảnh sinh viên' style='width:50px;height:50px;' />")),
+        grid.Column("AnhSV", "Ảnh", format: (item) => Html.Raw($"<img src='{Url.Content(item.AnhSV)}' alt='Ảnh sinh viên' style='width:50px;height:50px;' class='img-fluid' />")),
         grid.Column("DiaChi", "Địa Chỉ"),
         grid.Column("Lop.TenLop", "Lớp"),
-        grid.Column("Details", "Hành động", format: (item) => Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSV }))
+        grid.Column("Details", "Hành động", format: (item) => Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSV }, new { @class = "btn btn-info btn-sm" }))
     )
 )

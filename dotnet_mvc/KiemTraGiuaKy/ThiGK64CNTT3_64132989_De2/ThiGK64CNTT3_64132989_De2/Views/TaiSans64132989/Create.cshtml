@@ -1,0 +1,67 @@
+﻿@model ThiGK64CNTT3_64132989_De2.Models.TaiSan
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Thêm tài sản mới</h2>
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2" })
+</div>
+
+@using (Html.BeginForm("Create", "TaiSans64132989", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="col-md-10 mt-5">
+        @Html.LabelFor(model => model.MaTS, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.MaTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập mã tài sản", data_val = "true", data_val_regex = "^[A-Z0-9]{1,10}$", data_val_regex_message = "Mã tài sản chỉ được chứa chữ hoa và số, tối đa 10 ký tự." } })
+        @Html.ValidationMessageFor(model => model.MaTS, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.TenTS, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.TenTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tên tài sản", data_val = "true", data_val_regex = "^[a-zA-Z0-9]{1,100}$", data_val_regex_message = "Tên tài sản chỉ được chứa chữ cái, số và khoảng trắng, tối đa 100 ký tự." } })
+        @Html.ValidationMessageFor(model => model.TenTS, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.DVT, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.DVT, new { htmlAttributes = new { @class = "form-control", placeholder = "Đơn vị tính", data_val = "true", data_val_regex = "^[a-zA-Z]{1,10}$", data_val_regex_message = "Đơn vị tính chỉ được chứa chữ cái, tối đa 10 ký tự." } })
+        @Html.ValidationMessageFor(model => model.DVT, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.DonGia, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.TextBoxFor(model => model.DonGia, new { @class = "form-control", placeholder = "Nhập đơn giá", type = "number", step = "0.01", data_val = "true", data_val_range = "[0.01,99999999.99]", data_val_range_message = "Đơn giá phải nằm trong khoảng từ 0.01 đến 99999999.99." })
+        @Html.ValidationMessageFor(model => model.DonGia, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.AnhMH, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.AnhMH, new { htmlAttributes = new { @class = "form-control", @type = "file", @name = "AnhMH" } })
+        @Html.ValidationMessageFor(model => model.AnhMH, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.MaLTS, "Loại tài sản", htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.DropDownListFor(model => model.MaLTS, ViewBag.MaLTS as SelectList, "Chọn loại tài sản", new { @class = "form-select" })
+        @Html.ValidationMessageFor(model => model.MaLTS, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.GhiChu, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.TextAreaFor(model => model.GhiChu, new { @class = "form-control", placeholder = "Ghi chú", rows = 3 })
+        @Html.ValidationMessageFor(model => model.GhiChu, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-offset-2 col-md-10 mt-5">
+        <input type="submit" value="Lưu thông tin" class="btn btn-primary" />
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

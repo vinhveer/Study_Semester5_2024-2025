@@ -1,0 +1,116 @@
+﻿@model IEnumerable<ThiGK64CNTT3_64132989_De2.Models.TaiSan>
+
+@{
+    ViewBag.Title = "Tìm kiếm tài sản";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int totalPages = (int)Math.Ceiling((double)ViewBag.TotalItems / ViewBag.PageSize);
+}
+
+<h3 class="display-6 mb-3">Tìm kiếm tài sản</h3>
+
+<p>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-primary" })
+</p>
+
+@using (Html.BeginForm("TimKiemTS_64132989", "TaiSans64132989", FormMethod.Get))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3 w-50">
+        <label for="searchString" class="form-label">Tên tài sản</label>
+        <input type="text" class="form-control" id="searchString" name="searchString" placeholder="Tên tài sản"
+               value="@Request.QueryString["searchString"]" />
+    </div>
+
+    <div class="mb-3 d-flex">
+        <div class="me-5">
+            <label for="minPrice" class="form-label">Giá tối thiểu</label>
+            <input type="text" class="form-control" id="minPrice" name="minPrice" placeholder="Giá tối thiểu"
+                   value="@Request.QueryString["minPrice"]" />
+        </div>
+        <div>
+            <label for="maxPrice" class="form-label">Giá tối đa</label>
+            <input type="text" class="form-control" id="maxPrice" name="maxPrice" placeholder="Giá tối đa"
+                   value="@Request.QueryString["maxPrice"]" />
+        </div>
+    </div>
+
+    <div class="mt-3 mb-5">
+        <button class="btn btn-outline-secondary me-3" type="submit">Tìm kiếm</button>
+        @Html.ActionLink("Nhập mới", "TimKiemTS_64132989", null, new { @class = "btn btn-primary" })
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        Không có kết quả nào được tìm thấy.
+    </div>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>@Html.DisplayNameFor(model => model.MaTS)</th>
+            <th>@Html.DisplayNameFor(model => model.TenTS)</th>
+            <th>@Html.DisplayNameFor(model => model.DVT)</th>
+            <th>@Html.DisplayNameFor(model => model.XuatXu)</th>
+            <th>@Html.DisplayNameFor(model => model.DonGia)</th>
+            <th>@Html.DisplayNameFor(model => model.AnhMH)</th>
+            <th>@Html.DisplayNameFor(model => model.LoaiTaiSan.TenLTS)</th>
+            <th>@Html.DisplayNameFor(model => model.GhiChu)</th>
+            <th></th>
+        </tr>
+
+        @{ int i = (ViewBag.Page - 1) * ViewBag.PageSize + 1; }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(i++)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaTS)</td>
+                <td>@Html.DisplayFor(modelItem => item.TenTS)</td>
+                <td>@Html.DisplayFor(modelItem => item.DVT)</td>
+                <td>@(item.XuatXu ? "Trong nước" : "Ngoại nhập")</td>
+                <td>@Html.DisplayFor(modelItem => item.DonGia)</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.AnhMH))
+                    {
+                        <img src="~/Images/@item.AnhMH" alt="Ảnh tài sản" class="img-thumbnail" style="max-width: 50px;" />
+                    }
+                    else
+                    {
+                        <p>Không có ảnh</p>
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.LoaiTaiSan.TenLTS)</td>
+                <td>@Html.DisplayFor(modelItem => item.GhiChu)</td>
+                <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaTS })</td>
+            </tr>
+        }
+    </table>
+}
+
+<!-- Pagination Controls -->
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @if (ViewBag.Page > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = ViewBag.Page - 1 })">Previous</a>
+            </li>
+        }
+        @for (int pageNum = 1; pageNum <= totalPages; pageNum++)
+        {
+            <li class="page-item @(pageNum == ViewBag.Page ? "active" : "")">
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = pageNum })">@pageNum</a>
+            </li>
+        }
+        @if (ViewBag.Page < totalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("TimKiemTS_64132989", new { page = ViewBag.Page + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</nav>

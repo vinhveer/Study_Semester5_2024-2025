@@ -80,7 +80,7 @@ namespace KT0720NguyenQuangVinh_64132989.Controllers
         }
 
         [HttpGet]
-        public ActionResult TimKiem(string maSV, string hoTen)
+        public ActionResult TimKiem(string maSV, string hoTen, int page = 1)
         {
             // Lấy danh sách sinh viên từ database và áp dụng bộ lọc
             var sinhViens = db.SinhViens.AsQueryable();
@@ -95,8 +95,18 @@ namespace KT0720NguyenQuangVinh_64132989.Controllers
                 sinhViens = sinhViens.Where(sv => sv.HoSV.Contains(hoTen) || sv.TenSV.Contains(hoTen));
             }
 
-           
-            return View(sinhViens.ToList());
+
+            // Thêm OrderBy để tránh lỗi khi sử dụng Skip
+            sinhViens = sinhViens.OrderBy(sv => sv.MaSV);
+            // Phân trang
+            var totalRecords = sinhViens.Count();
+            var totalPages = (int)Math.Ceiling((double)totalRecords / 5);
+            var currentRecords = sinhViens.Skip((page - 1) * 5).Take(5).ToList();
+            // Truyền dữ liệu phân trang sang View
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalRecords = totalRecords;
+            ViewBag.TotalPages = totalPages;
+            return View(currentRecords);
         }
 
 
