@@ -27,6 +27,11 @@ namespace ThiGK64CNTT3_64132989_De2.Models
         [Display(Name = "Đơn vị tính")]
         public string DVT { get; set; }
 
+
+        [Required(ErrorMessage = "Xuất xứ là bắt buộc.")]
+        [Display(Name = "Xuất xứ")]
+        public bool XuatXu { get; set; }
+
         [Required(ErrorMessage = "Số lượng là bắt buộc.")]
         [Display(Name = "Đơn giá")]
         [Range(0.01, 99999999.99, ErrorMessage = "Đơn giá phải nằm trong khoảng từ 0.01 đến 99999999.99.")]
