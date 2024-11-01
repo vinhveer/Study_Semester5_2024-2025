@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ThiGK64CNTT3_64132989_De1.Models.ThanhVien>
+
+@{
+    ViewBag.Title = "Danh sách thành viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int totalPages = (int)Math.Ceiling((double)ViewBag.TotalItems / ViewBag.PageSize);
+}
+
+<h3 class="display-6 mb-3">Danh sách thành viên</h3>
+
+<p>
+    @Html.ActionLink("Thêm thành viên mới", "Create", null, new { @class = "btn btn-primary" })
+</p>
+
+<table class="table">
+    <tr>
+        <th>STT</th>
+        <th>@Html.DisplayNameFor(model => model.MaTV)</th>
+        <th>@Html.DisplayNameFor(model => model.HoTV)</th>
+        <th>@Html.DisplayNameFor(model => model.TenTV)</th>
+        <th>@Html.DisplayNameFor(model => model.AnhDaiDien)</th>
+        <th>@Html.DisplayNameFor(model => model.NgaySinh)</th>
+        <th>@Html.DisplayNameFor(model => model.GioiTinh)</th>
+        <th>@Html.DisplayNameFor(model => model.Email)</th>
+        <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
+        <th>@Html.DisplayNameFor(model => model.Tinh.TenTinh)</th>
+        <th></th>
+    </tr>
+
+    @{ int i = (ViewBag.Page - 1) * ViewBag.PageSize + 1; }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@(i++)</td>
+            <td>@Html.DisplayFor(modelItem => item.MaTV)</td>
+            <td>@Html.DisplayFor(modelItem => item.HoTV)</td>
+            <td>@Html.DisplayFor(modelItem => item.TenTV)</td>
+            <td>@Html.DisplayFor(modelItem => item.AnhDaiDien)</td>
+            <td>@Html.DisplayFor(modelItem => item.NgaySinh)</td>
+            <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
+            <td>@Html.DisplayFor(modelItem => item.Email)</td>
+            <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+            <td>@Html.DisplayFor(modelItem => item.Tinh.TenTinh)</td>
+            <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaTV })</td>
+        </tr>
+    }
+</table>
+
+<!-- Pagination Controls -->
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @if (ViewBag.Page > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page - 1 })">Previous</a>
+            </li>
+        }
+        @for (int pageNum = 1; pageNum <= totalPages; pageNum++)
+        {
+            <li class="page-item @(pageNum == ViewBag.Page ? "active" : "")">
+                <a class="page-link" href="@Url.Action("Index", new { page = pageNum })">@pageNum</a>
+            </li>
+        }
+        @if (ViewBag.Page < totalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.Page + 1 })">Next</a>
+            </li>
+        }
+    </ul>
+</nav>

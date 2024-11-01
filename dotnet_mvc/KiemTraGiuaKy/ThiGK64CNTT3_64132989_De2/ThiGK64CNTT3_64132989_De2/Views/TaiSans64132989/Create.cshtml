@@ -17,19 +17,19 @@
 
     <div class="col-md-10 mt-5">
         @Html.LabelFor(model => model.MaTS, htmlAttributes: new { @class = "form-label col-md-2" })
-        @Html.EditorFor(model => model.MaTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập mã tài sản", data_val = "true", data_val_regex = "^[A-Z0-9]{1,10}$", data_val_regex_message = "Mã tài sản chỉ được chứa chữ hoa và số, tối đa 10 ký tự." } })
+        @Html.EditorFor(model => model.MaTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập mã tài sản" } })
         @Html.ValidationMessageFor(model => model.MaTS, "", new { @class = "text-danger" })
     </div>
 
     <div class="col-md-10 mt-3">
         @Html.LabelFor(model => model.TenTS, htmlAttributes: new { @class = "form-label col-md-2" })
-        @Html.EditorFor(model => model.TenTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tên tài sản", data_val = "true", data_val_regex = "^[a-zA-Z0-9]{1,100}$", data_val_regex_message = "Tên tài sản chỉ được chứa chữ cái, số và khoảng trắng, tối đa 100 ký tự." } })
+        @Html.EditorFor(model => model.TenTS, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tên tài sản" } })
         @Html.ValidationMessageFor(model => model.TenTS, "", new { @class = "text-danger" })
     </div>
 
     <div class="col-md-10 mt-3">
         @Html.LabelFor(model => model.DVT, htmlAttributes: new { @class = "form-label col-md-2" })
-        @Html.EditorFor(model => model.DVT, new { htmlAttributes = new { @class = "form-control", placeholder = "Đơn vị tính", data_val = "true", data_val_regex = "^[a-zA-Z]{1,10}$", data_val_regex_message = "Đơn vị tính chỉ được chứa chữ cái, tối đa 10 ký tự." } })
+        @Html.EditorFor(model => model.DVT, new { htmlAttributes = new { @class = "form-control", placeholder = "Đơn vị tính" } })
         @Html.ValidationMessageFor(model => model.DVT, "", new { @class = "text-danger" })
     </div>
 

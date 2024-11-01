@@ -1,0 +1,51 @@
+﻿@model ThiGK64CNTT3_64132989_De1.Models.ThanhVien
+
+@{
+    ViewBag.Title = "Chi tiết thành viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Thông tin thành viên</h2>
+
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2 mb-4" })
+</div>
+
+<div class="card shadow-sm card-body d-flex">
+    <div class="d-flex flex-row align-items-start mb-3">
+        <div class="me-3 pe-4">
+            @if (!string.IsNullOrEmpty(Model.AnhDaiDien))
+            {
+                <img src="~/Images/@Model.AnhDaiDien" alt="Ảnh đại diện" class="rounded" style="max-width: 300px;" />
+            }
+            else
+            {
+                <p>Không có ảnh</p>
+            }
+        </div>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-4">Tên tỉnh</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Tinh.TenTinh)</dd>
+
+                <dt class="col-sm-4">Họ thành viên</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.HoTV)</dd>
+
+                <dt class="col-sm-4">Tên thành viên</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TenTV)</dd>
+
+                <dt class="col-sm-4">Ngày sinh</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                <dt class="col-sm-4">Giới tính</dt>
+                <dd class="col-sm-8">@(Model.GioiTinh ? "Nam" : "Nữ")</dd>
+
+                <dt class="col-sm-4">Email</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Email)</dd>
+
+                <dt class="col-sm-4">Địa chỉ</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DiaChi)</dd>
+            </dl>
+        </div>
+    </div>
+</div>
