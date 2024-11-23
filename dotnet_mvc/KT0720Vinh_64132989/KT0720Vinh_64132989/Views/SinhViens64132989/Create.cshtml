@@ -1,0 +1,80 @@
+﻿@model KT0720Vinh_64132989.Models.SinhVien
+
+@{
+    ViewBag.Title = "Thêm sinh viên mới";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Thêm sinh viên mới</h2>
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2" })
+</div>
+
+@using (Html.BeginForm("Create", "SinhViens64132989", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="col-md-10 mt-5">
+        @Html.LabelFor(model => model.MaSV, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.MaSV, new { htmlAttributes = new { @class = "form-control", @placeholder = "Nhập mã thành viên" } })
+        @Html.ValidationMessageFor(model => model.MaSV, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.HoSV, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.HoSV, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập họ thành viên" } })
+        @Html.ValidationMessageFor(model => model.HoSV, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.TenSV, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.TenSV, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập tên thành viên" } })
+        @Html.ValidationMessageFor(model => model.TenSV, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.AnhSV, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.AnhSV, new { htmlAttributes = new { @class = "form-control", @type = "file", @name = "AnhDaiDien" } })
+        @Html.ValidationMessageFor(model => model.AnhSV, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.NgaySinh, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.NgaySinh, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+        @Html.ValidationMessageFor(model => model.NgaySinh, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.GioiTinh, htmlAttributes: new { @class = "form-label col-md-2" })
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(model => model.GioiTinh, true, new { @class = "form-check-input", id = "gioiTinhNam" })
+            <label class="form-check-label" for="gioiTinhNam">Nam</label>
+        </div>
+        <div class="form-check form-check-inline">
+            @Html.RadioButtonFor(model => model.GioiTinh, false, new { @class = "form-check-input", id = "gioiTinhNu" })
+            <label class="form-check-label" for="gioiTinhNu">Nữ</label>
+        </div>
+        @Html.ValidationMessageFor(model => model.GioiTinh, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.DiaChi, htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.EditorFor(model => model.DiaChi, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập địa chỉ" } })
+        @Html.ValidationMessageFor(model => model.DiaChi, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-10 mt-3">
+        @Html.LabelFor(model => model.MaLop, "Lớp", htmlAttributes: new { @class = "form-label col-md-2" })
+        @Html.DropDownListFor(model => model.MaLop, ViewBag.Lop as SelectList, "Chọn Lớp", new { @class = "form-select" })
+        @Html.ValidationMessageFor(model => model.MaLop, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="col-md-offset-2 col-md-10 mt-5">
+        <input type="submit" value="Lưu thông tin" class="btn btn-primary" />
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

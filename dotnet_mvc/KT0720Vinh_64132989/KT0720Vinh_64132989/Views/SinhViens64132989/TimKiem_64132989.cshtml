@@ -1,0 +1,98 @@
+﻿@model IEnumerable<KT0720Vinh_64132989.Models.SinhVien>
+
+@{
+    ViewBag.Title = "Tìm kiếm Sinh Viên";
+    int totalPages = (int)Math.Ceiling((double)ViewBag.TotalItems / ViewBag.PageSize);
+}
+
+<h3 class="display-6 mb-3">Tìm kiếm Sinh Viên</h3>
+
+<p>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-primary" })
+</p>
+
+@using (Html.BeginForm("TimKiem_64132989", "SinhViens64132989", FormMethod.Get))
+{
+    <div class="mb-3 w-50">
+        <label for="HoTen" class="form-label">Họ và Tên</label>
+        <input type="text" class="form-control" id="HoTen" name="HoTen" placeholder="Nhập họ và tên"
+               value="@ViewBag.HoTen" />
+    </div>
+
+    <div class="mb-3 w-50">
+        <label for="MaSV" class="form-label">Mã số sinh viên</label>
+        <input type="text" class="form-control" id="MaSV" name="MaSV" placeholder="Nhập mã số sinh viên"
+               value="@ViewBag.MaSV" />
+    </div>
+
+    <div class="mt-3 mb-5">
+        <button class="btn btn-outline-secondary me-3" type="submit">Tìm kiếm</button>
+        @Html.ActionLink("Nhập mới", "TimKiem_64132989", null, new { @class = "btn btn-primary" })
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        Không có kết quả nào được tìm thấy.
+    </div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Mã SV</th>
+                <th>Họ</th>
+                <th>Tên</th>
+                <th>Ngày Sinh</th>
+                <th>Giới Tính</th>
+                <th>Địa Chỉ</th>
+                <th>Lớp</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{ int i = (ViewBag.Page - 1) * ViewBag.PageSize + 1; }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@(i++)</td>
+                    <td>@item.MaSV</td>
+                    <td>@item.HoSV</td>
+                    <td>@item.TenSV</td>
+                    <td>@item.NgaySinh.ToShortDateString()</td>
+                    <td>@(item.GioiTinh ? "Nam" : "Nữ")</td>
+                    <td>@item.DiaChi</td>
+                    <td>@item.Lop.TenLop</td>
+                    <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaSV })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            @if (ViewBag.Page > 1)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = ViewBag.Page - 1, HoTen = ViewBag.HoTen, MaSV = ViewBag.MaSV })">Previous</a>
+                </li>
+            }
+            @for (int pageNum = 1; pageNum <= totalPages; pageNum++)
+            {
+                <li class="page-item @(pageNum == ViewBag.Page ? "active" : "")">
+                    <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = pageNum, HoTen = ViewBag.HoTen, MaSV = ViewBag.MaSV })">@pageNum</a>
+                </li>
+            }
+            @if (ViewBag.Page < totalPages)
+            {
+                <li class="page-item">
+                    <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = ViewBag.Page + 1, HoTen = ViewBag.HoTen, MaSV = ViewBag.MaSV })">Next</a>
+                </li>
+            }
+        </ul>
+    </nav>
+}

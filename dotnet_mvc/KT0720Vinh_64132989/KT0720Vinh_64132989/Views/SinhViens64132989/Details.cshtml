@@ -1,0 +1,48 @@
+﻿@model KT0720Vinh_64132989.Models.SinhVien
+
+@{
+    ViewBag.Title = "Chi tiết sinh viên";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Thông tin sinh viên</h2>
+
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2 mb-4" })
+</div>
+
+<div class="card shadow-sm card-body d-flex">
+    <div class="d-flex flex-row align-items-start mb-3">
+        <div class="me-3 pe-4">
+            @if (!string.IsNullOrEmpty(Model.AnhSV))
+            {
+                <img src="~/Images/@Model.AnhSV" alt="Ảnh đại diện" class="rounded" style="max-width: 300px;" />
+            }
+            else
+            {
+                <p>Không có ảnh</p>
+            }
+        </div>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-4">Tên tỉnh</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.Lop.TenLop)</dd>
+
+                <dt class="col-sm-4">Họ thành viên</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.HoSV)</dd>
+
+                <dt class="col-sm-4">Tên thành viên</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TenSV)</dd>
+
+                <dt class="col-sm-4">Ngày sinh</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgaySinh)</dd>
+
+                <dt class="col-sm-4">Giới tính</dt>
+                <dd class="col-sm-8">@(Model.GioiTinh ? "Nam" : "Nữ")</dd>
+
+                <dt class="col-sm-4">Địa chỉ</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.DiaChi)</dd>
+            </dl>
+        </div>
+    </div>
+</div>

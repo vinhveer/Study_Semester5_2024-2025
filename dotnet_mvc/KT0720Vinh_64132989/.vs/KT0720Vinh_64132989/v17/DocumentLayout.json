@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\kt0720vinh_64132989\\kt0720vinh_64132989\\controllers\\sinhviens64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\controllers\\sinhviens64132989controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\kt0720vinh_64132989\\kt0720vinh_64132989\\views\\sinhviens64132989\\timkiemajax_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\sinhviens64132989\\timkiemajax_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\views\\sinhviens64132989\\timkiem_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\sinhviens64132989\\timkiem_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\views\\sinhviens64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\sinhviens64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\views\\sinhviens64132989\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\sinhviens64132989\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\views\\sinhviens64132989\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\views\\sinhviens64132989\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\models\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\kt0720vinh_64132989\\models\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A47A1C01-5C7E-41FF-8639-6817E4430D4E}|KT0720Vinh_64132989\\KT0720Vinh_64132989.csproj|solutionrelative:kt0720vinh_64132989\\models\\lop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimKiemAjax_64132989.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiemAjax_64132989.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiemAjax_64132989.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiemAjax_64132989.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiemAjax_64132989.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:33:25.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "KT0720Vinh_64132989\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T05:06:44.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:04:07.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Index.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Index.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T04:56:18.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SinhViens64132989Controller.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Controllers\\SinhViens64132989Controller.cs",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Controllers\\SinhViens64132989Controller.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Controllers\\SinhViens64132989Controller.cs",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Controllers\\SinhViens64132989Controller.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAewKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:54:01.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimKiem_64132989.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiem_64132989.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiem_64132989.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiem_64132989.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\TimKiem_64132989.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:12:15.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Create.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Create.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:01:15.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Web.config",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Web.config",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Web.config",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-23T05:04:05.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Details.cshtml",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Details.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Views\\SinhViens64132989\\Details.cshtml",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Views\\SinhViens64132989\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T05:02:46.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Models\\SinhVien.cs",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Models\\SinhVien.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Models\\SinhVien.cs",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Models\\SinhVien.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:54:39.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Lop.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Models\\Lop.cs",
+              "RelativeDocumentMoniker": "KT0720Vinh_64132989\\Models\\Lop.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KT0720Vinh_64132989\\KT0720Vinh_64132989\\Models\\Lop.cs",
+              "RelativeToolTip": "KT0720Vinh_64132989\\Models\\Lop.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T04:55:11.085Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

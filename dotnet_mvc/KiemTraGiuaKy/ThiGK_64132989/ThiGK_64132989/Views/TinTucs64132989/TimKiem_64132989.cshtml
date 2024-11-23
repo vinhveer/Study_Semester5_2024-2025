@@ -1,0 +1,98 @@
+﻿@model IEnumerable<ThiGK_64132989.Models.TinTuc>
+
+@{
+    ViewBag.Title = "Tìm kiếm tin tức";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int totalPages = (int)Math.Ceiling((double)ViewBag.TotalItems / ViewBag.PageSize);
+}
+
+<h3 class="display-6 mb-3">Tìm kiếm tin tức</h3>
+
+<p>
+    @Html.ActionLink("Về trang danh sách", "Index", "TinTucs64132989", null, new { @class = "btn btn-primary" })
+</p>
+
+@using (Html.BeginForm("TimKiem_64132989", "TinTucs64132989", FormMethod.Get))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3 w-50">
+        <label for="TieuDe" class="form-label">Tiêu đề</label>
+        <input type="text" class="form-control" id="TieuDe" name="TieuDe" placeholder="Nhập tiêu đề"
+               value="@ViewBag.TieuDe" />
+    </div>
+
+    <div class="mb-3 w-50">
+        <label for="NguoiDang" class="form-label">Người đăng</label>
+        <input type="text" class="form-control" id="NguoiDang" name="NguoiDang" placeholder="Nhập tên người đăng"
+               value="@ViewBag.NguoiDang" />
+    </div>
+
+    <div class="mt-3 mb-5">
+        <button class="btn btn-outline-secondary me-3" type="submit">Tìm kiếm</button>
+        @Html.ActionLink("Nhập mới", "TimKiem_64132989", null, new { @class = "btn btn-primary" })
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning" role="alert">
+        Không có kết quả nào được tìm thấy.
+    </div>
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>@Html.DisplayNameFor(model => model.MaTT)</th>
+            <th>@Html.DisplayNameFor(model => model.TieuDe)</th>
+            <th>@Html.DisplayNameFor(model => model.NgonNgu)</th>
+            <th>@Html.DisplayNameFor(model => model.NguoiDang)</th>
+            <th>@Html.DisplayNameFor(model => model.NgayDang)</th>
+            <th>@Html.DisplayNameFor(model => model.AnhDaiDien)</th>
+            <th>@Html.DisplayNameFor(model => model.GhiChu)</th>
+            <th></th>
+        </tr>
+
+        @{ int i = (ViewBag.Page - 1) * ViewBag.PageSize + 1; }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@(i++)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaTT)</td>
+                <td>@Html.DisplayFor(modelItem => item.TieuDe)</td>
+                <td>@(item.NgonNgu ? "Tiếng Việt" : "Tiếng Anh")</td>
+                <td>@Html.DisplayFor(modelItem => item.NguoiDang)</td>
+                <td>@Html.DisplayFor(modelItem => item.NgayDang)</td>
+                <td>@Html.DisplayFor(modelItem => item.AnhDaiDien) </td>
+                <td>@Html.DisplayFor(modelItem => item.GhiChu)</td>
+                <td>@Html.ActionLink("Xem chi tiết", "Details", new { id = item.MaTT })</td>
+            </tr>
+        }
+    </table>
+}
+
+<!-- Pagination Controls -->
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @if (ViewBag.Page > 1)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = ViewBag.Page - 1, TieuDe = ViewBag.TieuDe, NguoiDang = ViewBag.NguoiDang })">Previous</a>
+            </li>
+        }
+        @for (int pageNum = 1; pageNum <= totalPages; pageNum++)
+        {
+            <li class="page-item @(pageNum == ViewBag.Page ? "active" : "")">
+                <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = pageNum, TieuDe = ViewBag.TieuDe, NguoiDang = ViewBag.NguoiDang })">@pageNum</a>
+            </li>
+        }
+        @if (ViewBag.Page < totalPages)
+        {
+            <li class="page-item">
+                <a class="page-link" href="@Url.Action("TimKiem_64132989", new { page = ViewBag.Page + 1, TieuDe = ViewBag.TieuDe, NguoiDang = ViewBag.NguoiDang })">Next</a>
+            </li>
+        }
+    </ul>
+</nav>

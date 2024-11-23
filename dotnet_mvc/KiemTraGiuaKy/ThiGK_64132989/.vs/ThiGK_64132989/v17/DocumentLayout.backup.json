@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\thigk_64132989\\views\\tintucs64132989\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|solutionrelative:thigk_64132989\\views\\tintucs64132989\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\kiemtragiuaky\\thigk_64132989\\thigk_64132989\\views\\tintucs64132989\\timkiem_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|solutionrelative:thigk_64132989\\views\\tintucs64132989\\timkiem_64132989.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\thigk_64132989\\views\\gioithieu64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|solutionrelative:thigk_64132989\\views\\gioithieu64132989\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\thigk_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|solutionrelative:thigk_64132989\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\thigk_64132989\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DD9BA416-8136-4181-8D76-B142F0A81B77}|ThiGK_64132989\\ThiGK_64132989.csproj|solutionrelative:thigk_64132989\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimKiem_64132989.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\TinTucs64132989\\TimKiem_64132989.cshtml",
+              "RelativeDocumentMoniker": "ThiGK_64132989\\Views\\TinTucs64132989\\TimKiem_64132989.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\TinTucs64132989\\TimKiem_64132989.cshtml",
+              "RelativeToolTip": "ThiGK_64132989\\Views\\TinTucs64132989\\TimKiem_64132989.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAFQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T02:18:20.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\TinTucs64132989\\Create.cshtml",
+              "RelativeDocumentMoniker": "ThiGK_64132989\\Views\\TinTucs64132989\\Create.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\TinTucs64132989\\Create.cshtml",
+              "RelativeToolTip": "ThiGK_64132989\\Views\\TinTucs64132989\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:45:46.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ThiGK_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ThiGK_64132989\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:45:39.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "ThiGK_64132989\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "ThiGK_64132989\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:45:38.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\GioiThieu64132989\\Index.cshtml",
+              "RelativeDocumentMoniker": "ThiGK_64132989\\Views\\GioiThieu64132989\\Index.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\KiemTraGiuaKy\\ThiGK_64132989\\ThiGK_64132989\\Views\\GioiThieu64132989\\Index.cshtml",
+              "RelativeToolTip": "ThiGK_64132989\\Views\\GioiThieu64132989\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T01:44:18.073Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

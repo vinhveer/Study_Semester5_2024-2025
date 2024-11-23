@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\models\\identitymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\models\\accountviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\views\\account\\externalloginfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\views\\account\\externalloginfailure.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|c:\\users\\vinhnq\\desktop\\study_semester5_2024-2025\\dotnet_mvc\\security\\security\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{145C9D67-02D8-4C27-BFD9-3DE26452D44D}|Security\\Security.csproj|solutionrelative:security\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "Security\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "Security\\Models\\ManageViewModels.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:40:33.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IdentityModels.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\IdentityModels.cs",
+              "RelativeDocumentMoniker": "Security\\Models\\IdentityModels.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\IdentityModels.cs",
+              "RelativeToolTip": "Security\\Models\\IdentityModels.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:40:32.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\AccountViewModels.cs",
+              "RelativeDocumentMoniker": "Security\\Models\\AccountViewModels.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Models\\AccountViewModels.cs",
+              "RelativeToolTip": "Security\\Models\\AccountViewModels.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:40:30.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Web.config",
+              "RelativeDocumentMoniker": "Security\\Web.config",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Web.config*",
+              "RelativeToolTip": "Security\\Web.config*",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-23T00:39:53.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "Security\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "Security\\Controllers\\ManageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:38:20.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Security\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Security\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:38:18.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Security\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Security\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T00:38:08.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Security\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Security\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T00:38:04.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExternalLoginFailure.cshtml",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "RelativeDocumentMoniker": "Security\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "RelativeToolTip": "Security\\Views\\Account\\ExternalLoginFailure.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T00:37:46.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Security\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\vinhnq\\Desktop\\Study_Semester5_2024-2025\\dotnet_mvc\\Security\\Security\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Security\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAOQBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T00:35:29.719Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

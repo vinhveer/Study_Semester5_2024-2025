@@ -1,0 +1,54 @@
+﻿@model ThiGK_64132989.Models.TinTuc
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="display-6">Chi tiết tin tức</h2>
+
+<div>
+    @Html.ActionLink("Về trang danh sách", "Index", null, new { @class = "btn btn-outline-secondary mt-2 mb-4" })
+</div>
+
+<div class="card shadow-sm card-body d-flex">
+    <div class="d-flex flex-row align-items-start mb-3">
+        <div class="me-3 pe-4">
+            @if (!string.IsNullOrEmpty(Model.AnhDaiDien))
+            {
+                <img src="~/Images/@Model.AnhDaiDien" alt="Ảnh đại diện" class="rounded" style="max-width: 300px;" />
+            }
+            else
+            {
+                <p>Không có ảnh</p>
+            }
+        </div>
+        <div>
+            <dl class="row">
+                <dt class="col-sm-4">Loại tin tức</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.LoaiTinTuc.TenLTT)</dd>
+
+                <dt class="col-sm-4">Mã tin tức</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.MaTT)</dd>
+
+                <dt class="col-sm-4">Tiêu đề</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.TieuDe)</dd>
+
+                <dt class="col-sm-4">Người đăng</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NguoiDang)</dd>
+
+                <dt class="col-sm-4">Ngôn ngữ</dt>
+                <dd class="col-sm-8">@(Model.NgonNgu ? "Tiếng Việt" : "Tiếng Anh")</dd>
+
+                <dt class="col-sm-4">Ngày đăng</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.NgayDang)</dd>
+
+                <dt class="col-sm-4">Loại tin tức</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.LoaiTinTuc.TenLTT)</dd>
+
+                <dt class="col-sm-4">Ghi chú</dt>
+                <dd class="col-sm-8">@Html.DisplayFor(model => model.GhiChu)</dd>
+            </dl>
+        </div>
+    </div>
+</div>
